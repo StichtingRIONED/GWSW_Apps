@@ -8,6 +8,7 @@ Het is onderdeel van het Semantisch Web en is gemodelleerd in
 Via deze website kunt u de inhoud van het GWSW in detail raadplegen. Voor meer informatie over het GWSW, zie   
 [www.riool.net](https://www.riool.net/gwsw)
 
+Deze tekst nog uitbreiden
 
 ## Welcome to GitHub Pages
 
