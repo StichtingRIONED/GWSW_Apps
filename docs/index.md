@@ -4,7 +4,6 @@ Het GWSW is een open datastandaard volgens het linked data principe die door Sti
 Het is onderdeel van het Semantisch Web en is gemodelleerd in [RDF/RDFS/OWL-2](https://en.wikipedia.org/wiki/Resource_Description_Framework).
 
 ## GWSW Apps ##
-
 Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, dit betreft: 
 - De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps 
 - Documentatie van ontwikkeling van (met name) GWSW Apps 
@@ -16,10 +15,7 @@ Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, d
 	- [Aandachtspunten bij upload naar GWSW-Dataset](#aandachtspunten-bij-upload-naar-gwsw-dataset)
 
 ## Evaluatie GWSW Apps ##
-
-
 ### Analyse van de werking ###
-
 De juiste interpretatie van de nulmeting-resultaten vraagt kennis van het gehele proces. De GWSW Nulmeting dient alleen door daarin getrainde adviseurs uitgevoerd te worden.
 Informatie over de GWSW Nulmeting is te vinden in:
 
