@@ -23,7 +23,16 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
         <p class="view"><a href="https://github.com/StichtingRIONED/GWSW/issues">Meldingen GWSW Apps</a></p>
-        <p>Type licentie: {{ site.github.license.key }}</p> <!-- test metadata repository -->
+        <p class="view"><a href="https://github.com/StichtingRIONED/GWSW/index_1">Tav Nulmeting</a></p>
+        <p class="view"><a href="https://github.com/StichtingRIONED/GWSW/index_2">Tav Export GWSW.orox</a></p>
+        <p class="view"><a href="https://github.com/StichtingRIONED/GWSW/index_3">Tav Upload GWSW.orox</a></p>
+        
+        <ul>
+          <li><small>Owner:</small> {{ site.github.owner_name }}</li> <!-- metadata repository -->
+          <li><small>Project:</small> {{ site.github.repository_nwo }}</li> <!-- metadata repository -->
+          <li><small>Licentie:</small> {{ site.github.license.key }}</li> <!-- metadata repository -->
+        </ul>
+        
         <img src="docs/_layouts/gwsw_logo.jpg" alt="gwsw" />
 
         <!-- {% if site.github.is_project_page %}
