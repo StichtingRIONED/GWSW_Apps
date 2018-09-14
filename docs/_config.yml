@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-title: GWSW | Stichting RIONED
+title: GWSW | RIONED
 description: Gegevenswoordenboek Stedelijk Water
-logo: "./GWSW Logo.jpg"
+logo: "_layouts/GWSW Logo.jpg"
 show_downloads: "true"
