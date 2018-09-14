@@ -2,4 +2,4 @@ theme: jekyll-theme-minimal
 title: GWSW | RIONED
 description: Gegevenswoordenboek Stedelijk Water
 logo: "./_layouts/GWSW Logo.jpg"
-show_downloads: "false"
+show_downloads: "true"
