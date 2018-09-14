@@ -6,7 +6,7 @@ Het is onderdeel van het Semantisch Web en is gemodelleerd in [RDF/RDFS/OWL-2](h
 ## GWSW Apps ##
 Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, dit betreft: 
 - De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps 
-- Documentatie van ontwikkeling van (met name) GWSW Apps 
+- Documentatie ontwikkeling van GWSW Apps 
 	- [Evaluatie GWSW Nulmeting](index_1)
 	- [Aandachtpunten bij export van GWSW.orox bestand](index_2)
 	- [Aandachtspunten bij upload naar GWSW-Dataset](index_3)
