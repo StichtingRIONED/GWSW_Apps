@@ -52,7 +52,8 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld data.gwsw.
 	- Oorzaak in native database? (dus beheersysteem nodig bij de analyse) = signaal naar beheerder
 	- Oorzaak in de exportfunctie Orox ? (opbouw/mapping GWSW.orox bestand onvoldoende)  = signaal naar softwareleverancier (altijd via RIONED)
 	- Oorzaak in de nulmeting (foute werking) = signaal naar RIONED
-	- Oorzaak in de ontologie (GWSW algemeen of de cfk, bijvoorbeeld: bepaalde types ontbreken nog) = signaal naar RIONED
+
+- Oorzaak in de ontologie (GWSW algemeen of de cfk, bijvoorbeeld: bepaalde types ontbreken nog) = signaal naar RIONED
 
 #### Resultaten van de analyse (januari 2018) ####
 Deze analyse is gebaseerd op:
@@ -77,6 +78,7 @@ Deze analyse is gebaseerd op:
 * Lining komt niet mee in .orox bestand (Kikker, case Haarlemmermeer, melding Rob, 20180910). Lining kan met de relatie "hasPart" aan de leiding worden gekoppeld.
 * Ook grote GML-linestring records (met veel punten) toestaan, breekt nu af op 24000 karakters (Kikker, case HHNK_Persleidingen, 20180911)
 * Denk aan notatie van quotes in een string-literal, "Naam "met quotes" " kan niet, "Naam \"met quotes\" " kan wel (Kikker, case HHNK_Persleidingen, 20180911).
+
 **Tips voor gegevensbeheerders/adviseurs:**
 * Hanteer, indien het beheersysteem dit al niet verplicht stelt, alleen de GWSW objecttypes. Vooral belangrijk voor de soorten Stelsel, Put en Leiding.
 * Toets de vulling van de kenmerken aan de voorwaarden van de conformiteitsklassen (verplichte vulling, grenswaarden)
