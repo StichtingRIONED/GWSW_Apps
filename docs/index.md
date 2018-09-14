@@ -10,13 +10,15 @@ Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, d
 * Documentatie van ontwikkeling van (met name) GWSW Apps 
  - [Evaluatie GWSW Apps](#evaluatie-gwsw-apps)
    - [Analyse van de werking](#analyse-van-de-werking)
- - 				
-
+   - [Aanpak van de analyse](#aanpak-van-de-analyse)
+	 - [Resultaten van de analyse](#resultaten-van-de-analyse)
+ - [Aandachtpunten bij export van GWSW.orox bestand](#aandachtpunten-bij-export-van-gwwworox-bestand)
+ - [Aandachtspunten bij upload naar GWSW-Dataset](#aandachtspunten-bij-upload-naar-gwsw-dataset)
 
 ## Evaluatie GWSW Apps ##
 
 
-### GWSW Nulmeting - Analyse van de werking ###
+### Analyse van de werking ###
 
 De juiste interpretatie van de nulmeting-resultaten vraagt kennis van het gehele proces. De GWSW Nulmeting dient alleen door daarin getrainde adviseurs uitgevoerd te worden.
 Informatie over de GWSW Nulmeting is te vinden in:
@@ -26,7 +28,8 @@ Informatie over de GWSW Nulmeting is te vinden in:
 * Het document GWSW.orox Beschrijving (download op apps.gwsw.nl)
 * Deze notitie: GWSW Apps Werkdocument. 
 
-#### Aanpak van de analyse (oktober 2017 - januari 2018) ####
+#### Aanpak van de analyse ####
+(oktober 2017 - januari 2018)
 
 **Inrichting conformiteitsklassen**
 Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld data.gwsw.nl/MdsPlan) controleren:
@@ -57,7 +60,9 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld data.gwsw.
 
 - Oorzaak in de ontologie (GWSW algemeen of de cfk, bijvoorbeeld: bepaalde types ontbreken nog) = signaal naar RIONED
 
-#### Resultaten van de analyse (januari 2018) ####
+#### Resultaten van de analyse ####
+(januari 2018)
+ 
 Deze analyse is gebaseerd op:
 * de verslaggeving van Diet van Wendel (mailing dd najaar 2017) 
 * de verslaggeving van Gwendolijn Vugs (notitie dd 20180124, kenmerk N002-1260650GBV-V01-hgm-NL)
