@@ -1,3 +1,10 @@
+
+Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, dit betreft: 
+* Documentatie van ontwikkeling van (met name) GWSW Apps 
+* De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps 
+
+
+
 <html>
 
 <head>
