@@ -8,5 +8,5 @@ Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, d
 - De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps 
 - Documentatie van ontwikkeling van (met name) GWSW Apps 
 	- [Evaluatie GWSW Nulmeting](index_1)
- 	- [Aandachtpunten bij export van GWSW.orox bestand](index_2)
+	- [Aandachtpunten bij export van GWSW.orox bestand](index_2)
 	- [Aandachtspunten bij upload naar GWSW-Dataset](index_3)
