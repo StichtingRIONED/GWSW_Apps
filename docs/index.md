@@ -11,10 +11,19 @@ Voor meer informatie over het GWSW, zie [www.riool.net](https://www.riool.net/gw
 ## Deze website
 
 Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, dit betreft:
-* Het onderhoud en ontwikkeling van (met name) GWSW Apps, in de vorm van de werkdocumenten
+* Documentatie van ontwikkeling van (met name) GWSW Apps
+- #sec1
+- #sec2
 * De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps
 
 content: GwswAppsWerkdocument.html
 
 {{GwswAppsWerkdocument.html}}
 
+#sect1
+test 1
+test 2
+
+#sect2
+test 3
+test 4
