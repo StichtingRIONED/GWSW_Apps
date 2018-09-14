@@ -6,14 +6,14 @@ Het is onderdeel van het Semantisch Web en is gemodelleerd in [RDF/RDFS/OWL-2](h
 ## GWSW Apps ##
 
 Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, dit betreft: 
-* De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps 
-* Documentatie van ontwikkeling van (met name) GWSW Apps 
- - [Evaluatie GWSW Apps](#evaluatie-gwsw-apps)
-   - [Analyse van de werking](#analyse-van-de-werking)
-   - [Aanpak van de analyse](#aanpak-van-de-analyse)
-	 - [Resultaten van de analyse](#resultaten-van-de-analyse)
- - [Aandachtpunten bij export van GWSW.orox bestand](#aandachtpunten-bij-export-van-gwwworox-bestand)
- - [Aandachtspunten bij upload naar GWSW-Dataset](#aandachtspunten-bij-upload-naar-gwsw-dataset)
+- De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps 
+- Documentatie van ontwikkeling van (met name) GWSW Apps 
+	- [Evaluatie GWSW Apps](#evaluatie-gwsw-apps)
+  	- [Analyse van de werking](#analyse-van-de-werking)
+  	- [Aanpak van de analyse](#aanpak-van-de-analyse)
+		- [Resultaten van de analyse](#resultaten-van-de-analyse)
+	- [Aandachtpunten bij export van GWSW.orox bestand](#aandachtspunten-bij-export-van-gwsworox-bestand)
+	- [Aandachtspunten bij upload naar GWSW-Dataset](#aandachtspunten-bij-upload-naar-gwsw-dataset)
 
 ## Evaluatie GWSW Apps ##
 
@@ -43,7 +43,7 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld data.gwsw.
 **Document GWSW Nulmeting Beschrijving controleren:**
 * Is het leesbaar voor buitenstaanders?
 * Is het volledig?
-
+	
 **De rapportage van de nulmetingen (vooralsnog in platte csv-vorm) controleren:**
 * Is het leesbaar voor buitenstaanders?
 * Staat er voldoende informatie in om conclusies te kunnen trekken?
@@ -68,7 +68,7 @@ Deze analyse is gebaseerd op:
 * de verslaggeving van Gwendolijn Vugs (notitie dd 20180124, kenmerk N002-1260650GBV-V01-hgm-NL)
 * de meldingen van de GWSW Adviseurs (vanaf februari 2018 tot heden)
 
-### Aandachtpunten bij export van GWSW.orox bestand ###
+### Aandachtspunten bij export van GWSW.orox bestand ###
 **Tips voor leveranciers:**
 * Verduidelijk de handelingen voor de exportfunctie van GWSW.orox zodat de juiste omzetting van alle gegevens uit de native-database geborgd is.
 * Geef in een logbestand op heldere wijze aan welke gegevens zijn omgezet en welke aannames daarbij zijn gedaan. Anders blijven ook automatische "verbeteringen" verborgen.
