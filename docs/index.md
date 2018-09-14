@@ -11,8 +11,8 @@ Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, d
   	- [Analyse van de werking](#analyse-van-de-werking)
   	- [Aanpak van de analyse](#aanpak-van-de-analyse)
 		- [Resultaten van de analyse](#resultaten-van-de-analyse)
-	- [Aandachtpunten bij export van GWSW.orox bestand](#aandachtspunten-bij-export-van-gwsworox-bestand)
-	- [Aandachtspunten bij upload naar GWSW-Dataset](#aandachtspunten-bij-upload-naar-gwsw-dataset)
+	- [Aandachtpunten bij export van GWSW.orox bestand](index_1#aandachtspunten-bij-export-van-gwsworox-bestand)
+	- [Aandachtspunten bij upload naar GWSW-Dataset](index_1#aandachtspunten-bij-upload-naar-gwsw-dataset)
 
 ## Evaluatie GWSW Apps ##
 ### Analyse van de werking ###
