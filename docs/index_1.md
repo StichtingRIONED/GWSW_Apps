@@ -1,4 +1,4 @@
-## Evaluatie GWSW Apps ##
+## Evaluatie Nulmeting ##
 ### Analyse van de werking ###
 De juiste interpretatie van de nulmeting-resultaten vraagt kennis van het gehele proces. De GWSW Nulmeting dient alleen door daarin getrainde adviseurs uitgevoerd te worden.
 Informatie over de GWSW Nulmeting is te vinden in:
