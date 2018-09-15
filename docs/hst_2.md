@@ -1,6 +1,5 @@
-
-### Aandachtspunten bij export van GWSW.orox bestand ###
-**Tips voor leveranciers:**
+# Aandachtspunten bij export van GWSW.orox bestand #
+##Tips voor leveranciers:##
 * Verduidelijk de handelingen voor de exportfunctie van GWSW.orox zodat de juiste omzetting van alle gegevens uit de native-database geborgd is.
 * Geef in een logbestand op heldere wijze aan welke gegevens zijn omgezet en welke aannames daarbij zijn gedaan. Anders blijven ook automatische "verbeteringen" verborgen.
 * Beperk de native database gaandeweg steeds meer conform de GWSW ontologie, begin bijvoorbeeld met voorgeschreven stelseltypes, puttypes, leidingtypes.
@@ -17,7 +16,7 @@
 * Ook grote GML-linestring records (met veel punten) toestaan, breekt nu af op 24000 karakters (Kikker, case HHNK_Persleidingen, 20180911)
 * Denk aan notatie van quotes in een string-literal, "Naam "met quotes" " kan niet, "Naam \"met quotes\" " kan wel (Kikker, case HHNK_Persleidingen, 20180911).
 
-**Tips voor gegevensbeheerders/adviseurs:**
+##Tips voor gegevensbeheerders/adviseurs:##
 * Hanteer, indien het beheersysteem dit al niet verplicht stelt, alleen de GWSW objecttypes. Vooral belangrijk voor de soorten Stelsel, Put en Leiding.
 * Toets de vulling van de kenmerken aan de voorwaarden van de conformiteitsklassen (verplichte vulling, grenswaarden)
 * Vermijd typeringen zoals "onbekend", vul aan op basis van revisies of inspecties (Kikker)
