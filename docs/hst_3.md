@@ -1,4 +1,4 @@
-### Aandachtspunten bij upload naar GWSW-Dataset ###
+## Aandachtspunten bij upload naar GWSW-Dataset ##
 Tip: de foutmeldingen en het vermelde regelnummer ("[line nnn]") zijn niet altijd traceerbaar in het .orox-bestand. Parse het bestand met het beheersysteem voor een aanvullende analyse.
 
 Response: "RDF Parse Error: IRI included an unencoded space: '32' [line 13]" (20171031)
