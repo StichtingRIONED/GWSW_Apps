@@ -18,6 +18,6 @@ Deze website is onderdeel van de github-repository GWSW van Stichting RIONED, hi
 
 ## GWSW Ontologie ##
 Zie voor de inhoud van de GWSW datastructuur de website [data.gwsw.nl](https://data.gwsw.nl). 
-Voor commentaar op deze inhoud kunt u gebruik maken van de [review website](https://review.gwsw.nl/webprotege/). Op deze website vraagt om een aanmelding, u kunt daarvoor de algemene inlognaam "gast" met wachtwoord "gast" gebruiken. 
+Voor commentaar op deze inhoud kunt u gebruik maken van de [review website](https://review.gwsw.nl/webprotege/). Deze website vraagt om een aanmelding, u kunt daarvoor de algemene inlognaam "gast" met wachtwoord "gast" gebruiken. 
 
 Suggesties en vragen ontvangen wij ook graag via [RIONED-mail](mailto:gwsw@rioned.org).
