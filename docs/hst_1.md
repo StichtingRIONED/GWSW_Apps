@@ -39,11 +39,3 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld data.gwsw.
 	- Oorzaak in de nulmeting (foute werking) = signaal naar RIONED
 
 - Oorzaak in de ontologie (GWSW algemeen of de cfk, bijvoorbeeld: bepaalde types ontbreken nog) = signaal naar RIONED
-
-### Resultaten van de analyse ###
-(januari 2018)
- 
-Deze analyse is gebaseerd op:
-* de verslaggeving van Diet van Wendel (mailing dd najaar 2017) 
-* de verslaggeving van Gwendolijn Vugs (notitie dd 20180124, kenmerk N002-1260650GBV-V01-hgm-NL)
-* de meldingen van de GWSW Adviseurs (vanaf februari 2018 tot heden)
