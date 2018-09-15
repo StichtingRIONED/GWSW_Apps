@@ -1,4 +1,4 @@
-## GWSW ##
+ ## GWSW ##
 Het Gegevenswoordenboek Stedelijk Water (GWSW) is een [ontologie](https://nl.wikipedia.org/wiki/Ontologie_(informatica)), een speciale datastructuur die systemen (stelsels) en processen op het gebied van Stedelijk Water beschrijft. 
 Het GWSW is een open datastandaard volgens het linked data principe die door Stichting RIONED namens de sector is ontwikkeld. 
 Het is onderdeel van het Semantisch Web en is gemodelleerd in [RDF/RDFS/OWL-2](https://en.wikipedia.org/wiki/Resource_Description_Framework).
@@ -18,6 +18,6 @@ Deze website is onderdeel van de github-repository GWSW van Stichting RIONED, hi
 
 ## GWSW Ontologie ##
 Zie voor de inhoud van de GWSW datastructuur de website [data.gwsw.nl](https://data.gwsw.nl). 
-Voor commentaar op deze inhoud kunt u gebruik maken van de [review website](https://review.gwsw.nl/webprotege/).
+Voor commentaar op deze inhoud kunt u gebruik maken van de [review website](https://review.gwsw.nl/webprotege/). Op deze website vraagt om een aanmelding, u kunt daarvoor de algemene inlognaam "gast" met wachtwoord "gast" gebruiken. 
 
 Suggesties en vragen ontvangen wij ook graag via [RIONED-mail](mailto:gwsw@rioned.org).
