@@ -1,5 +1,12 @@
 # Aandachtspunten bij export van GWSW.orox bestand #
+
+Deze analyse is gebaseerd op:
+* de verslaggeving van Diet van Wendel (mailing dd najaar 2017) 
+* de verslaggeving van Gwendolijn Vugs (notitie dd 20180124, kenmerk N002-1260650GBV-V01-hgm-NL)
+* de meldingen van de GWSW Adviseurs (vanaf februari 2018 tot heden)
+
 ## Tips voor leveranciers: ##
+
 * Verduidelijk de handelingen voor de exportfunctie van GWSW.orox zodat de juiste omzetting van alle gegevens uit de native-database geborgd is.
 * Geef in een logbestand op heldere wijze aan welke gegevens zijn omgezet en welke aannames daarbij zijn gedaan. Anders blijven ook automatische "verbeteringen" verborgen.
 * Beperk de native database gaandeweg steeds meer conform de GWSW ontologie, begin bijvoorbeeld met voorgeschreven stelseltypes, puttypes, leidingtypes.
