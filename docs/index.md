@@ -10,6 +10,6 @@ Deze website geeft toegang tot de github-repository GWSW van Stichting RIONED, d
 	- [Evaluatie GWSW Nulmeting](hst_1)
 	- [Aandachtpunten bij export van GWSW.orox bestand](hst_2)
 	- [Aandachtspunten bij upload naar GWSW-Dataset](hst_3)
-	- [Kwaliteit typering objecten](hst_4)
+	- [Kwaliteit typering objecten](tabellen_1.pdf)
 	- [Kwalitiet kenmerken](hst_5)
 	- [Kwaliteit consistentie](hst_6)
