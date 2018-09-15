@@ -2,7 +2,7 @@
 
 De juiste interpretatie van de nulmeting-resultaten vraagt kennis van het gehele proces. De GWSW Nulmeting dient alleen door daarin getrainde adviseurs uitgevoerd te worden. 
 Algemene informatie over de GWSW Nulmeting is te vinden in:
-* Het document GWSW Nulmeting Beschrijving (download op [apps.gwsw.nl]{https://apps.gwsw.nl))
+* Het document GWSW Nulmeting Beschrijving (download op [apps.gwsw.nl](https://apps.gwsw.nl)
 
 ## Procedure meting gegevenskwaliteit ##
 * Vul de GWSW Dataset, upload een GWSW.orox export in combinatie met de cfk
@@ -19,7 +19,7 @@ Algemene informatie over de GWSW Nulmeting is te vinden in:
 (oktober 2017 - januari 2018)
 
 **Inrichting conformiteitsklassen**
-Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld data.gwsw.nl/MdsPlan) controleren:
+Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](https://apps.gwsw.nl/MdsPlan)) controleren:
 * Zijn alle soorten vermeld?
 	- Zijn ze niet te globaal?
 	- Zijn ze niet te gedetailleerd?
