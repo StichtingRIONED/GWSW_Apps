@@ -9,6 +9,7 @@ Fout                   | F       | Het object is onvoldoende getypeerd
 Goed                   | G       | De typering van het object is voldoende
 
 Tabel 1
+
 Naam concept                       | Supertype                    | MdsPlan | MdsProj
 -----------------------------------|------------------------------|---------|--------
 Stelsel                            | Fysiek object                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
