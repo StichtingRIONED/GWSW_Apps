@@ -12,9 +12,9 @@ Deze website is onderdeel van de github-repository GWSW van Stichting RIONED, hi
 	- [Evaluatie GWSW Nulmeting](hst_1)
 	- [Aandachtpunten bij export van GWSW.orox bestand](hst_2)
 	- [Aandachtspunten bij upload naar GWSW-Dataset](hst_3)
-	- [Kwaliteitsmaatstaven voor objecttypeeringen](tabellen_1.pdf)
-	- [Kwaliteitsmaatstaven voor de objectkenmerken](tabellen_2.pdf)
-	- [Kwaliteitsmaatstaven voor de consistentie van de dataset](tabellen_3.pdf)
+	- [Kwaliteitsmaatstaven voor objecttyperingen](tab_1)
+	- [Kwaliteitsmaatstaven voor de objectkenmerken](tab_2)
+	- [Kwaliteitsmaatstaven voor het aantal voorkomens](tab_3)
 
 ## GWSW Ontologie ##
 Zie voor de inhoud van de GWSW datastructuur de website [data.gwsw.nl](https://data.gwsw.nl). 
