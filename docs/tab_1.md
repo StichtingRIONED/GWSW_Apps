@@ -1,14 +1,14 @@
 ## Bladerobjecten ##
-In tabel 1 staan de kwaliteitsmaatstaven “Typering objecten” per conformiteitsklasse. Als een kwaliteitsmaatstaf niet is ingevuld, dan komt het concept niet voor in de desbetreffende conformiteitsklasse.
+In de volgende tabel staan de kwaliteitsmaatstaven voor de typering van objecten per conformiteitsklasse. Als een kwaliteitsmaatstaf niet is ingevuld, dan komt het concept niet voor in de desbetreffende conformiteitsklasse.
 
-### Legenda kwaliteitsmaatstaven in Tabel 1 ###
+### Legenda: Kwaliteit typering ###
 
 Kwaliteitsmaatstaf | Code    | Omschrijving
 -------------------|---------|-------------
 Fout               | <span style="color:red">F</span>   | Het object is onvoldoende getypeerd
 Goed               | <span style="color:green">G</span> | De typering van het object is voldoende
 
-### Tabel 1 ###
+### Maatstaven: Kwaliteit typering ###
 
 Supertype                    | Naam concept                       | MdsPlan | MdsProj
 -----------------------------|------------------------------------|---------|--------
