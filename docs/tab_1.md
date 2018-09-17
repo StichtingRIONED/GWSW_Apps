@@ -10,8 +10,8 @@ Goed                   | G       | De typering van het object is voldoende
 
 Tabel 1
 
-Naam concept                       | Supertype                    | Kwaliteitsmaatstaf |
--                                  |                              | MdsPlan | MdaProj
+Naam concept                       | Supertype                    | -       |
+-                                  | -                            | MdsPlan | MdaProj
 -----------------------------------|------------------------------|---------|-----------
 Stelsel                            | Fysiek object                | F  | F
 Rioolstelsel                       | Stelsel                      | F  | F
