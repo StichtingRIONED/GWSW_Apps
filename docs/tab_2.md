@@ -1,5 +1,5 @@
 ## Kenmerken ##
-In de volgende tabelstaan de kwaliteitsmaatstaven voor de kenmerken. Als een kwaliteitsmaatstaf niet is ingevuld, dan is het kenmerk niet verplicht in de conformiteitsklasse. 
+In de volgende tabel staan de kwaliteitsmaatstaven voor de kenmerken. Als een kwaliteitsmaatstaf niet is ingevuld, dan is het kenmerk niet verplicht in de conformiteitsklasse. 
 
 ### Legenda: Kwaliteit kenmerken ###
 
