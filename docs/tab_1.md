@@ -1,4 +1,4 @@
-## Bladerobjecten ##
+## Typering objecten ##
 In de volgende tabel staan de kwaliteitsmaatstaven voor de typering van objecten per conformiteitsklasse. Als een kwaliteitsmaatstaf niet is ingevuld, dan komt het concept niet voor in de desbetreffende conformiteitsklasse.
 
 ### Legenda: Kwaliteit typering ###
