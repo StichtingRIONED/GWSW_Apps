@@ -1,7 +1,7 @@
 ## Kenmerken ##
-In tabel 2 staan de kwaliteitsmaatstaven voor de kenmerken. Als een kwaliteitsmaatstaf niet is ingevuld, dan is het kenmerk niet verplicht in de conformiteitsklasse. 
+In de volgende tabelstaan de kwaliteitsmaatstaven voor de kenmerken. Als een kwaliteitsmaatstaf niet is ingevuld, dan is het kenmerk niet verplicht in de conformiteitsklasse. 
 
-### Legenda kwaliteitsmaatstaven tabellen 2 en 3 ###
+### Legenda: Kwaliteit kenmerken ###
 
 Kwaliteitsmaatstaf | Code    | Omschrijving
 -------------------|---------|-------------
@@ -9,7 +9,7 @@ laag               | <span style="color:green">L</span> | De kwaliteit is niet o
 Neutraal           | **N**                              | De kwaliteit is van invloed
 Hoog               | <span style="color:red">H</span>   | De kwaliteit is van doorslaggevend belang
 
-### Tabel 2: Kwaliteitsmaatstaf en voorkomens kenmerken ###
+### Maatstaven: Kwaliteit kenmerken ###
 
 Concept       | Kenmerk                             | Nauwkeurigheid               |              | MdsPlan | MdsProj
 --------------|-------------------------------------|------------------------------|--------------|---------|----------
