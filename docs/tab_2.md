@@ -42,12 +42,12 @@ Put           | Putoriëntatie / Positie / X         | -7000 <= Waarde <= 300000
 Put           | Putoriëntatie / Positie / Y         | 289000 <= Waarde <= 629000 m
 Put           | Z-coördinaat                        | -20 <= Waarde <= 300 m       | Datatype
 Project       | Projectreferentie                   |                              | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
-              | opdrachtgever                       |
+              | opdrachtgever
 Project       | Projectreferentie                   |                              | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
-              | opdrachtnemer                       |
-Leiding       | Leidingoriëntatie                   |                              | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
-              | Beginpunt / Positie Beginpunt       |
-              | Eindpunt / Positie Eindpunt         |
+              | opdrachtnemer
+Leiding       | Leidingoriëntatie                   |                              | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span>
+              | Beginpunt / Positie Beginpunt
+              | Eindpunt / Positie Eindpunt
 Leiding       | B.o.b. beginpunt leiding            | -20 <= Waarde <= 300 m       | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
 Leiding       | B.o.b. eindpunt leiding             | -20 <= Waarde <= 300 m       | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
 Leiding       | Materiaal leiding                   | Waarde in collectie          |              | <span style="color:red">H</span>   | <span style="color:red">H</span> 
@@ -55,7 +55,6 @@ Leiding       | Vorm leiding                        | Waarde in collectie       
 Leiding       | Verhardingstype                     | Waarde in collectie
 Put           | Vorm put                            | Waarde in collectie          |              | **N**       | **N** 
 Leiding       | Verbindingstype                     | Waarde in collectie
-
 
 
 In tabel 3 staan de kwaliteitsmaatstaven “Consistentie” (over de relaties tussen instanties). Als een kwaliteitsmaatstaf niet is ingevuld, dan is de relatie niet verplicht in de conformiteitsklasse.
