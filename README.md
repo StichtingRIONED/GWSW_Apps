@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## GWSW ##
+Het Gegevenswoordenboek Stedelijk Water (GWSW) is een [ontologie](https://nl.wikipedia.org/wiki/Ontologie_(informatica)), een speciale datastructuur die systemen (stelsels) en processen op het gebied van Stedelijk Water beschrijft. 
+Het GWSW is een open datastandaard volgens het linked data principe die door Stichting RIONED namens de sector is ontwikkeld. 
+Het is onderdeel van het Semantisch Web en is gemodelleerd in [RDF/RDFS/OWL-2](https://en.wikipedia.org/wiki/Resource_Description_Framework).
 
-You can use the [editor on GitHub](https://github.com/StichtingRIONED/GWSW/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## GWSW Apps ##
+De GWSW applicaties voorzien in toegang tot de GWSW Server. Ze verzorgen de upload, toetsing en presentatie van (gemeentelijke) datasets.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Deze website is onderdeel van de github-repository GWSW van Stichting RIONED, hier vindt u: 
+- De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps 
+- Documentatie bij de ontwikkeling van GWSW Apps 
+	- [Evaluatie GWSW Nulmeting](hst_1)
+	- [Aandachtpunten bij export van GWSW.orox bestand](hst_2)
+	- [Aandachtspunten bij upload naar GWSW-Dataset](hst_3)
+	- [Kwaliteitsmaatstaven voor objecttypeeringen](tabellen_1.pdf)
+	- [Kwaliteitsmaatstaven voor de objectkenmerken](tabellen_2.pdf)
+	- [Kwaliteitsmaatstaven voor de consistentie van de dataset](tabellen_3.pdf)
 
-### Markdown
+## GWSW Ontologie ##
+Zie voor de inhoud van de GWSW datastructuur de website [data.gwsw.nl](https://data.gwsw.nl). 
+Voor commentaar op deze inhoud kunt u gebruik maken van de [review website](https://review.gwsw.nl/webprotege/). Deze website vraagt om een aanmelding, u kunt daarvoor de algemene inlognaam "gast" met wachtwoord "gast" gebruiken. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StichtingRIONED/GWSW/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Suggesties en vragen ontvangen wij ook graag via [RIONED-mail](mailto:gwsw@rioned.org).
