@@ -10,90 +10,90 @@ Goed                   | G       | De typering van het object is voldoende
 
 Tabel 1
 
-Naam concept                       | Supertype                    | MdsPlan | MdsProj
------------------------------------|------------------------------|---------|--------
-**Stelsel**                            | Fysiek object                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Rioolstelsel                       | Stelsel                      | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Vrijverval rioolstelsel            | Rioolstelsel                 | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Gemengd stelsel                    | Vrijverval rioolstelsel      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Verbeterd gemengd stelsel          | Gemengd stelsel              | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Hemelwaterstelsel                  | Vrijverval rioolstelsel      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vuilwaterstelsel                   | Vrijverval rioolstelsel      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Onderbemaling                      | Vrijverval rioolstelsel      | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Mechanisch rioolstelsel            | Rioolstelsel                 | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Drukriolering                      | Mechanisch rioolstelsel      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vacuümriolering                    | Mechanisch rioolstelsel      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Mechanisch drainagestelsel         | Drainagestelsel
-Vrijverval drainagestelsel         | Drainagestelsel 
-Transportstelsel                   | Stelsel                      | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Persleidingsysteem                 | Transportstelsel             | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vrijverval transportstelsel        | Transportstelsel             | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Put                                | Fysiek object                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Aansluitput                        | Put 
-Drainageput                        | Put 
-Filterput                          | Put 
-Slokop                             | Put 
-Beerput                            | Put                          | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Infiltratieput                     | Put 
-Kolk                               | Put                          | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Trottoirkolk                       | Kolk                         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Straatkolk                         | Kolk                         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Infiltratiekolk                    | Kolk                         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Gecombineerde straat- trottoirkolk | Kolk                         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Bijzondere putconstructie          | Rioolput                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Aansluitput                        | Put 
-Doorspoelput                       | Rioolput                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Inspectieput                       | Rioolput                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Kruisingsput                       | Rioolput                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Zinkerput                          | Rioolput 
-Stuwput                            | Rioolput                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Lozingsput                         | Rioolput                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Overstortput                       | Rioolput                     | <span style="color:red">F</span>    | <span style="color:green">G</span> 
-Externe overstortput               | Overstortput                 | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Interne overstortput               | Overstortput                 | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Verdekte put                       | Rioolput                     | <span style="color:green">G</span> 
-Pompput                            | Rioolput                     | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Pompunit                           | Pompput                      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vacuümpompstation                  | Pompput                      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Leiding                            | Fysiek object                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Drain                              | Leiding                      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Duiker                             | Leiding 
-Mantelbuis                         | Leiding 
-Aansluitleiding                    | Rioolleiding                 | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Kolkaansluitleiding                | Aansluitleiding              | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Perceelaansluitleiding             | Aansluitleiding              | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Mechanische rioolleiding           | Rioolleiding                 | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Drukleiding                        | Mechanische rioolleiding     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vacuümleiding                      | Mechanische rioolleiding     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vrijverval rioolleiding            | Leiding                      | <span style="color:red">F</span>    | <span style="color:green">G</span> 
-Bergbezinkleiding                  | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Bergingsleiding                    | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Gemengd riool                      | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Hemelwaterriool                    | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Infiltratieriool                   | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Overstortleiding                   | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Stuwrioolleiding                   | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vuilwaterriool                     | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Zinker                             | Vrijverval rioolleiding      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Transportleiding                   | Leiding                      | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Mechanische transportleiding       | Transportleiding             | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Persleiding                        | Mechanische transportleiding | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Spoelleiding                       | Mechanische transportleiding | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vrijverval transportleiding        | Transportleiding             | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Transportrioolleiding              | Vrijverval transportleiding  | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Goot                               | Open leiding 
-Reservoir                          | Fysiek object                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Bergbezinkbassin                   | Reservoir                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Bergingsbassin                     | Reservoir                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Bergingsvijver                     | Reservoir                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Bezinkbassin                       | Reservoir                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Infiltratiereservoir               | Reservoir                    | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Infiltratiebassin                  | Infiltratiereservoir         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Infiltratiegreppel                 | Infiltratiereservoir 
-Infiltratieveld                    | Infiltratiereservoir 
-Wadi                               | Infiltratiereservoir         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Vacuümopslagtank                   | Reservoir                    | <span style="color:green">G</span> 
-Zuiveringsreservoir                | Reservoir                    | <span style="color:red">F</span>    | <span style="color:red">F</span> 
-Helofytenfilter                    | Zuiveringsreservoir          | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-IBA                                | Zuiveringsreservoir          | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Septictank                         | Zuiveringsreservoir          | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Supertype                    | Naam concept                       | MdsPlan | MdsProj
+-----------------------------|------------------------------------|---------|--------
+Fysiek object                | Stelsel                            | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Stelsel                      | Rioolstelsel                       | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Rioolstelsel                 | Vrijverval rioolstelsel            | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Vrijverval rioolstelsel      | Gemengd stelsel                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Gemengd stelsel              | Verbeterd gemengd stelsel          | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolstelsel      | Hemelwaterstelsel                  | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolstelsel      | Vuilwaterstelsel                   | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolstelsel      | Onderbemaling                      | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Rioolstelsel                 | Mechanisch rioolstelsel            | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Mechanisch rioolstelsel      | Drukriolering                      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Mechanisch rioolstelsel      | Vacuümriolering                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Drainagestelsel              | Mechanisch drainagestelsel         | 
+Drainagestelsel              | Vrijverval drainagestelsel         | 
+Stelsel                      | Transportstelsel                   | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Transportstelsel             | Persleidingsysteem                 | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Transportstelsel             | Vrijverval transportstelsel        | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Fysiek object                | Put                                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Put                          | Aansluitput                        | 
+Put                          | Drainageput                        | 
+Put                          | Filterput                          | 
+Put                          | Slokop                             | 
+Put                          | Beerput                            | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Put                          | Infiltratieput                     | 
+Put                          | Kolk                               | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Kolk                         | Trottoirkolk                       | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Kolk                         | Straatkolk                         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Kolk                         | Infiltratiekolk                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Kolk                         | Gecombineerde straat- trottoirkolk | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Rioolput                     | Bijzondere putconstructie          | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Put                          | Aansluitput                        | 
+Rioolput                     | Doorspoelput                       | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Rioolput                     | Inspectieput                       | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Rioolput                     | Kruisingsput                       | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Rioolput                     | Zinkerput                          | 
+Rioolput                     | Stuwput                            | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Rioolput                     | Lozingsput                         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Rioolput                     | Overstortput                       | <span style="color:red">F</span>    | <span style="color:green">G</span> 
+Overstortput                 | Externe overstortput               | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Overstortput                 | Interne overstortput               | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Rioolput                     | Verdekte put                       | <span style="color:green">G</span> 
+Rioolput                     | Pompput                            | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Pompput                      | Pompunit                           | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Pompput                      | Vacuümpompstation                  | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Fysiek object                | Leiding                            | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Leiding                      | Drain                              | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Leiding                      | Duiker                             | 
+Leiding                      | Mantelbuis                         | 
+Rioolleiding                 | Aansluitleiding                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Aansluitleiding              | Kolkaansluitleiding                | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Aansluitleiding              | Perceelaansluitleiding             | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Rioolleiding                 | Mechanische rioolleiding           | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Mechanische rioolleiding     | Drukleiding                        | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Mechanische rioolleiding     | Vacuümleiding                      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Leiding                      | Vrijverval rioolleiding            | <span style="color:red">F</span>    | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Bergbezinkleiding                  | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Bergingsleiding                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Gemengd riool                      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Hemelwaterriool                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Infiltratieriool                   | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Overstortleiding                   | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Stuwrioolleiding                   | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Vuilwaterriool                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Vrijverval rioolleiding      | Zinker                             | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Leiding                      | Transportleiding                   | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Transportleiding             | Mechanische transportleiding       | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Mechanische transportleiding | Persleiding                        | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Mechanische transportleiding | Spoelleiding                       | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Transportleiding             | Vrijverval transportleiding        | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Vrijverval transportleiding  | Transportrioolleiding              | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Open leiding                 | Goot                               | 
+Fysiek object                | Reservoir                          | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Reservoir                    | Bergbezinkbassin                   | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Reservoir                    | Bergingsbassin                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Reservoir                    | Bergingsvijver                     | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Reservoir                    | Bezinkbassin                       | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Reservoir                    | Infiltratiereservoir               | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Infiltratiereservoir         | Infiltratiebassin                  | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Infiltratiereservoir         | Infiltratiegreppel                 | 
+Infiltratiereservoir         | Infiltratieveld                    | 
+Infiltratiereservoir         | Wadi                               | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Reservoir                    | Vacuümopslagtank                   | <span style="color:green">G</span> 
+Reservoir                    | Zuiveringsreservoir                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+Zuiveringsreservoir          | Helofytenfilter                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Zuiveringsreservoir          | IBA                                | <span style="color:green">G</span>  | <span style="color:green">G</span> 
+Zuiveringsreservoir          | Septictank                         | <span style="color:green">G</span>  | <span style="color:green">G</span> 
