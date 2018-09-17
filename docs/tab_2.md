@@ -42,12 +42,12 @@ Put           | Putoriëntatie / Positie / X         | -7000 <= Waarde <= 300000
 Put           | Putoriëntatie / Positie / Y         | 289000 <= Waarde <= 629000 m
 Put           | Z-coördinaat                        | -20 <= Waarde <= 300 m       | Datatype
 Project       | Projectreferentie                   |                              | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
-              | opdrachtgever                       |                                                
+              | opdrachtgever                       |
 Project       | Projectreferentie                   |                              | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
-              | opdrachtnemer                       |                                               
+              | opdrachtnemer                       |
 Leiding       | Leidingoriëntatie                   |                              | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
-              | Beginpunt / Positie Beginpunt       |  
-              | Eindpunt / Positie Eindpunt         |      
+              | Beginpunt / Positie Beginpunt       |
+              | Eindpunt / Positie Eindpunt         |
 Leiding       | B.o.b. beginpunt leiding            | -20 <= Waarde <= 300 m       | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
 Leiding       | B.o.b. eindpunt leiding             | -20 <= Waarde <= 300 m       | Datatype     | <span style="color:red">H</span>   | <span style="color:red">H</span> 
 Leiding       | Materiaal leiding                   | Waarde in collectie          |              | <span style="color:red">H</span>   | <span style="color:red">H</span> 
