@@ -10,8 +10,7 @@ Goed                   | G       | De typering van het object is voldoende
 
 Tabel 1
 
-Naam concept                       | Supertype                    | -       |
--                                  | -                            | MdsPlan | MdaProj
+Naam concept                       | Supertype                    | MdsPlan | MdaProj
 -----------------------------------|------------------------------|---------|-----------
 Stelsel                            | Fysiek object                | F  | F
 Rioolstelsel                       | Stelsel                      | F  | F
@@ -30,8 +29,8 @@ Transportstelsel                   | Stelsel                      | F  | F
 Persleidingsysteem                 | Transportstelsel             | G  | G
 Vrijverval transportstelsel        | Transportstelsel             | G  | G
 Put                                | Fysiek object                | F  | F
-Aansluitput                        | Put | |
-Drainageput                        | Put | |
+Aansluitput                        | Put 
+Drainageput                        | Put 
 Filterput                          | Put | |
 Slokop                             | Put | |
 Beerput                            | Put                          | G  | G
