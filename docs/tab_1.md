@@ -3,15 +3,15 @@ In de volgende tabel staan de kwaliteitsmaatstaven voor de typering van objecten
 
 ### Legenda: Kwaliteit typering ###
 
-Kwaliteitsmaatstaf | Code    | Omschrijving
--------------------|---------|-------------
+Kwaliteitsmaatstaf | Code | Omschrijving
+-------------------|------|--------------------------------
 Fout               | <span style="color:red">F</span>   | Het object is onvoldoende getypeerd
 Goed               | <span style="color:green">G</span> | De typering van het object is voldoende
 
 ### Maatstaven: Kwaliteit typering ###
 
 Supertype                    | Naam concept                       | MdsPlan | MdsProj
------------------------------|------------------------------------|---------|--------
+-----------------------------|------------------------------------|----|----
 Fysiek object                | Stelsel                            | <span style="color:red">F</span>    | <span style="color:red">F</span> 
 Stelsel                      | Rioolstelsel                       | <span style="color:red">F</span>    | <span style="color:red">F</span> 
 Rioolstelsel                 | Vrijverval rioolstelsel            | <span style="color:red">F</span>    | <span style="color:red">F</span> 
@@ -23,8 +23,8 @@ Vrijverval rioolstelsel      | Onderbemaling                      | <span style=
 Rioolstelsel                 | Mechanisch rioolstelsel            | <span style="color:red">F</span>    | <span style="color:red">F</span> 
 Mechanisch rioolstelsel      | Drukriolering                      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
 Mechanisch rioolstelsel      | Vacuümriolering                    | <span style="color:green">G</span>  | <span style="color:green">G</span> 
-Drainagestelsel              | Mechanisch drainagestelsel         | 
-Drainagestelsel              | Vrijverval drainagestelsel         | 
+Drainagestelsel              | Mechanisch drainagestelsel          
+Drainagestelsel              | Vrijverval drainagestelsel          
 Stelsel                      | Transportstelsel                   | <span style="color:red">F</span>    | <span style="color:red">F</span> 
 Transportstelsel             | Persleidingsysteem                 | <span style="color:green">G</span>  | <span style="color:green">G</span> 
 Transportstelsel             | Vrijverval transportstelsel        | <span style="color:green">G</span>  | <span style="color:green">G</span> 
