@@ -6,7 +6,6 @@ Het is onderdeel van het Semantisch Web en is gemodelleerd in [RDF/RDFS/OWL-2](h
 ## GWSW Apps ##
 De GWSW applicaties voorzien in toegang tot de GWSW Server. Ze verzorgen de upload, toetsing en presentatie van (gemeentelijke) datasets.
 De website [apps.gwsw.nl](https://apps.gwsw.nl) biedt toegang tot GWSW Apps.
-
 Deze github-repository GWSW van Stichting RIONED documenteert de ontwikkeling van GWSW Apps. Deze repository is ook opvraagbaar via [github-pages](https://stichtingrioned.github.io/GWSW)
 
 ## GWSW Ontologie ##
