@@ -12,7 +12,7 @@ Tabel 1
 
 Naam concept                       | Supertype                    | MdsPlan | MdsProj
 -----------------------------------|------------------------------|---------|--------
-Stelsel                            | Fysiek object                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
+**Stelsel**                            | Fysiek object                | <span style="color:red">F</span>    | <span style="color:red">F</span> 
 Rioolstelsel                       | Stelsel                      | <span style="color:red">F</span>    | <span style="color:red">F</span> 
 Vrijverval rioolstelsel            | Rioolstelsel                 | <span style="color:red">F</span>    | <span style="color:red">F</span> 
 Gemengd stelsel                    | Vrijverval rioolstelsel      | <span style="color:green">G</span>  | <span style="color:green">G</span> 
