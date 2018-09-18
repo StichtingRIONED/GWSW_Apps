@@ -3,15 +3,11 @@ In de volgende tabel staan de kwaliteitsmaatstaven voor de kenmerken. Als een kw
 
 ### Legenda: Kwaliteit kenmerken ###
 
-<small>
-
 Kwaliteitsmaatstaf | Code | Omschrijving
 -------------------|------|-------------------------------------------------
 laag               | <span style="color:green">L</span> | De kwaliteit is niet of nauwelijks van invloed
 Neutraal           | **N**                              | De kwaliteit is van invloed
 Hoog               | <span style="color:red">H</span>   | De kwaliteit is van doorslaggevend belang
-
-</small>
 
 ### Maatstaven: Kwaliteit kenmerken ###
 
