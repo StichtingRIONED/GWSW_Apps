@@ -6,7 +6,7 @@ Algemene informatie over de GWSW Nulmeting is te vinden in:
 
 ## Procedure meting gegevenskwaliteit ##
 * Vul de GWSW Dataset: upload een GWSW.orox export in combinatie met het GWSW-filter "Totaal (geen CFK)". Voer de nulmeting uit en analiseer de resultaten
-* Vul opnieuw de GWSW DatasetV: upload een GWSW.orox export in combinatie met de gekozen conformiteitsklasse, bijvoorbeeld "MdsPlan". Voer de nulmeting uit en analiseer de resultaten
+* Vul opnieuw de GWSW Dataset: upload een GWSW.orox export in combinatie met de gekozen conformiteitsklasse, bijvoorbeeld "MdsPlan". Voer de nulmeting uit en analiseer de resultaten
 * Doe eerst op deze wijze een "quick-scan". Als er veel onbekende of te globale typeringen zijn, is de overige kwaliteitsmeting niet betrouwbaar. Breng dan eerst de database voor wat betreft de typering op orde. Daarmee voorkom je dat er twee keer een “zwaar” metingtraject wordt doorlopen. (ervaring met case Tholen)
 * Gebruik de GWSW-Geoserver (via het WFS protocol) om de grafische presentatie te vergelijken met die van het Beheersysteem
 * Voer de nulmeting uit en herleid de foutmeldingen:
