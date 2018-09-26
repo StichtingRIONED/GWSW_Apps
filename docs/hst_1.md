@@ -1,12 +1,12 @@
- # Evaluatie Nulmeting #
+# Evaluatie Nulmeting
 
 De juiste interpretatie van de nulmeting-resultaten vraagt kennis van het gehele proces. De GWSW Nulmeting dient alleen door daarin getrainde adviseurs uitgevoerd te worden. 
 Algemene informatie over de GWSW Nulmeting is te vinden in:
 * Het document GWSW Nulmeting Beschrijving (download op [apps.gwsw.nl](https://apps.gwsw.nl) )
 
-## Procedure meting gegevenskwaliteit ##
-* Vul de GWSW Dataset: upload een GWSW.orox export in combinatie met het GWSW-filter "Totaal (geen CFK)". Voer de nulmeting uit en analiseer de resultaten
-* Vul opnieuw de GWSW Dataset: upload een GWSW.orox export in combinatie met de gekozen conformiteitsklasse, bijvoorbeeld "MdsPlan". Voer de nulmeting uit en analiseer de resultaten
+## Procedure meting gegevenskwaliteit
+* Vul de GWSW Dataset: upload een GWSW.orox export in combinatie met het GWSW-filter "Totaal (geen CFK)". Voer de nulmeting uit en analyseer de resultaten
+* Vul opnieuw de GWSW Dataset: upload een GWSW.orox export in combinatie met de gekozen conformiteitsklasse, bijvoorbeeld "MdsPlan". Voer de nulmeting uit en analyseer de resultaten
 * Doe eerst op deze wijze een "quick-scan". Als er veel onbekende of te globale typeringen zijn, is de overige kwaliteitsmeting niet betrouwbaar. Breng dan eerst de database voor wat betreft de typering op orde. Daarmee voorkom je dat er twee keer een “zwaar” metingtraject wordt doorlopen. (ervaring met case Tholen)
 * Gebruik de GWSW-Geoserver (via het WFS protocol) om de grafische presentatie te vergelijken met die van het Beheersysteem
 * Voer de nulmeting uit en herleid de foutmeldingen:
@@ -15,7 +15,7 @@ Algemene informatie over de GWSW Nulmeting is te vinden in:
 	- Oorzaak in de nulmeting (foute werking) = melden bij RIONED
 	- Oorzaak in de ontologie (GWSW algemeen of de CFK, bijvoorbeeld: bepaalde types ontbreken nog) = melden bij RIONED
 
-## Eerdere analyse van de werking ## 
+## Eerdere analyse van de werking
 (oktober 2017 - januari 2018)
 
 **Inrichting conformiteitsklassen**
