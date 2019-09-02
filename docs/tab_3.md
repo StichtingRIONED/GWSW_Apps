@@ -8,20 +8,20 @@ In databases voor Stedelijk Water Systemen is de netwerkdefinitie belangrijk, in
 
 Kwaliteitsmaatstaf | Code | Omschrijving
 -------------------|------|-------------
-laag               | <span style="color:green">L</span> | De kwaliteit is niet of nauwelijks van invloed
+laag               | <strong style="color:green">L</strong> | De kwaliteit is niet of nauwelijks van invloed
 Neutraal           | **N**                              | De kwaliteit is van invloed
-Hoog               | <span style="color:red">H</span>   | De kwaliteit is van doorslaggevend belang
+Hoog               | <strong style="color:red">H</strong>   | De kwaliteit is van doorslaggevend belang
 
 ### Maatstaven: Kwaliteit aantal voorkomens ###
 
 Subject                | Soort relatie    | Object                  | Aantal | MdsPlan | MdsProj | Hyd
 -----------------------|------------------|-------------------------|-----|----|----
-Leidingoriëntatie      | heeft als deel   | Beginpunt               | 1      | <span style="color:red">H</span>   |  <span style="color:red">H</span>   |  <span style="color:red">H</span>
-Leidingoriëntatie      | heeft als deel   | Eindpunt                | 1      | <span style="color:red">H</span>   |  <span style="color:red">H</span>   |  <span style="color:red">H</span>
-Kolkaansluiting        | heeft als deel   | Kolk                    | 1      | <span style="color:red">H</span>   |  <span style="color:green">L</span> |
-Vrijverval rioolstelsel | heeft als deel  | Rioolput                | 1-n    | <span style="color:red">H</span>   |  <span style="color:green">L</span> |  <span style="color:red">H</span>
-Vrijverval rioolstelsel | heeft als deel  | Vrijverval rioolleiding | 1-n    | <span style="color:red">H</span>   |  <span style="color:green">L</span> |  <span style="color:red">H</span>
-Gescheiden stelsel     | heeft als deel   | Hemelwaterstelsel       | 1      | <span style="color:green">L</span> |  <span style="color:green">L</span> |  <span style="color:red">H</span>
-Gescheiden stelsel     | heeft als deel   | Vuilwaterstelsel        | 1      | <span style="color:green">L</span> |  <span style="color:green">L</span> |  <span style="color:red">H</span>
-Beginpunt leiding      | heeft verbinding | Put                     | 1      | <span style="color:red">H</span>   |                                     |  <span style="color:red">H</span> 
-Eindpunt leiding       | heeft verbinding | Put                     | 1      | <span style="color:red">H</span>   |                                     |  <span style="color:red">H</span>
+Leidingoriëntatie      | heeft als deel   | Beginpunt               | 1      | <strong style="color:red">H</strong>   |  <strong style="color:red">H</strong>   |  <strong style="color:red">H</strong>
+Leidingoriëntatie      | heeft als deel   | Eindpunt                | 1      | <strong style="color:red">H</strong>   |  <strong style="color:red">H</strong>   |  <strong style="color:red">H</strong>
+Kolkaansluiting        | heeft als deel   | Kolk                    | 1      | <strong style="color:red">H</strong>   |  <strong style="color:green">L</strong> |
+Vrijverval rioolstelsel | heeft als deel  | Rioolput                | 1-n    | <strong style="color:red">H</strong>   |  <strong style="color:green">L</strong> |  <strong style="color:red">H</strong>
+Vrijverval rioolstelsel | heeft als deel  | Vrijverval rioolleiding | 1-n    | <strong style="color:red">H</strong>   |  <strong style="color:green">L</strong> |  <strong style="color:red">H</strong>
+Gescheiden stelsel     | heeft als deel   | Hemelwaterstelsel       | 1      | <strong style="color:green">L</strong> |  <strong style="color:green">L</strong> |  <strong style="color:red">H</strong>
+Gescheiden stelsel     | heeft als deel   | Vuilwaterstelsel        | 1      | <strong style="color:green">L</strong> |  <strong style="color:green">L</strong> |  <strong style="color:red">H</strong>
+Beginpunt leiding      | heeft verbinding | Put                     | 1      | <strong style="color:red">H</strong>   |                                     |  <strong style="color:red">H</strong> 
+Eindpunt leiding       | heeft verbinding | Put                     | 1      | <strong style="color:red">H</strong>   |                                     |  <strong style="color:red">H</strong>
