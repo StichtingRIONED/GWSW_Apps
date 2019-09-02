@@ -59,7 +59,7 @@ Leiding       | B.o.b. eindpunt leiding          | -20 <= Waarde <= 300 m       
 Leiding       | Lengte leiding                   | 1 <= Waarde <= 75 m          | <strong style="color:red">H</strong>   | <strong style="color:red">H</strong>   | <strong style="color:red">H</strong>  
 Leiding       | Lengte buisdeel                  |                              
 Leiding       | Materiaal leiding                | Waarde in collectie          | <strong style="color:red">H</strong>   | <strong style="color:red">H</strong>   | <strong style="color:red">H</strong> 
-Leiding       | Wanddikte                        |                              |                                        |                                        | <strong style="color:red">H</strong> 
+Leiding       | Wanddikte                        |                              |                                        |                                        | **N** 
 Leiding       | SDR waarde (kunststof leiding)   |                              |                                        |                                        | <strong style="color:red">H</strong>
 Leiding       | Hoogte leiding                   | 63 <= Waarde <= 4000 mm      | **N**                                  | **N**                                  | <strong style="color:red">H</strong> 
 Leiding       | Breedte leiding                  | 63 <= Waarde <= 4000 mm      | **N**                                  | **N**                                  | <strong style="color:red">H</strong> 
