@@ -5,11 +5,12 @@ Algemene informatie over de GWSW Nulmeting is te vinden in:
 * Het document GWSW Nulmeting Beschrijving (download op [apps.gwsw.nl](https://apps.gwsw.nl) )
 
 ## Procedure meting gegevenskwaliteit
-* Vul de GWSW Dataset: upload een GWSW.orox export in combinatie met het GWSW-filter "Totaal (geen CFK)". Voer de nulmeting uit en analyseer de resultaten
-* Vul opnieuw de GWSW Dataset: upload een GWSW.orox export in combinatie met de gekozen conformiteitsklasse, bijvoorbeeld "MdsPlan". Voer de nulmeting uit en analyseer de resultaten
-* Doe eerst op deze wijze een "quick-scan". Als er veel onbekende of te globale typeringen zijn, is de overige kwaliteitsmeting niet betrouwbaar. Breng dan eerst de database voor wat betreft de typering op orde. Daarmee voorkom je dat er twee keer een “zwaar” metingtraject wordt doorlopen. (ervaring met case Tholen)
+* Vul de GWSW Dataset: upload een GWSW.orox export
+* Start de nulmeting: toets de dataset aan de gekozen conformiteitsklasse, bijvoorbeeld "MdsPlan" 
+* Voer de nulmeting uit en analyseer de resultaten
+* Doe eerst een "quick-scan". Als er veel onbekende of te globale typeringen zijn, is de overige kwaliteitsmeting niet betrouwbaar. Breng dan eerst de database voor wat betreft de typering op orde. Daarmee voorkom je dat er twee keer een “zwaar” metingtraject wordt doorlopen. (ervaring met case Tholen)
 * Gebruik de GWSW-Geoserver (via het WFS protocol) om de grafische presentatie te vergelijken met die van het Beheersysteem
-* Voer de nulmeting uit en herleid de foutmeldingen:
+* Voer de nulmeting opnieuw uit en herleid de foutmeldingen:
 	- Oorzaak in native database? (dus beheersysteem nodig bij de analyse) = melden bij beheerder
 	- Oorzaak in de exportfunctie Orox ? (opbouw/mapping GWSW.orox bestand onvoldoende)  = melden bij softwareleverancier (altijd via RIONED)
 	- Oorzaak in de nulmeting (foute werking) = melden bij RIONED
