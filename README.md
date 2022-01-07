@@ -1,7 +1,7 @@
 ## GWSW Apps ##
 De GWSW applicaties voorzien in toegang tot de GWSW Server. Ze verzorgen de upload, toetsing en presentatie van (gemeentelijke) datasets.
 De website [apps.gwsw.nl](https://apps.gwsw.nl) biedt toegang tot GWSW Apps.
-Deze github-repository GWSW van Stichting RIONED documenteert de ontwikkeling van GWSW Apps. Deze repository is ook opvraagbaar via [github-pages](https://stichtingrioned.github.io/GWSW)
+Deze github-repository GWSW van Stichting RIONED documenteert de ontwikkeling van GWSW Apps. Deze repository is ook opvraagbaar via [github-pages](https://stichtingrioned.github.io/GWSW_Apps)
 
 ## GWSW Ontologie ##
 Het Gegevenswoordenboek Stedelijk Water (GWSW) is een [ontologie](https://nl.wikipedia.org/wiki/Ontologie_(informatica)), een speciale datastructuur die systemen (stelsels) en processen op het gebied van Stedelijk Water beschrijft. 
