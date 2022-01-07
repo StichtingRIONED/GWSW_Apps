@@ -15,7 +15,7 @@ Concept       | Kenmerk                          | Nauwkeurigheid               
 --------------|----------------------------------|------------------------------|----|----|----
 Kenmerk       | Wijze van inwinning              | Waarde in collectie
 Kenmerk       | Datum inwinning                  |                              
-Put           | Materiaal put                    | Waarde in collectie          | <strong style="color:red">H</strong>   | <strong style="color:red">H</strong>   | <strong style="color:red">H</strong>  
+Put           | Materiaal put                    | Waarde in collectie          | <strong style="color:red">H</strong>   | <span class="redBold">H</span>   | <strong style="color:red">H</strong>  
 Put           | Horizontale afmetingen           | 300 <= Waarde <= 4000 mm     | **N**                                  | **N**                                  | <strong style="color:red">H</strong> 
 Put           | Hoogte put                       | 500 <= Waarde <= 4000 mm     | **N** 
 Put           | Vorm put                         | Waarde in collectie          | **N**                                  | **N**                                  | <strong style="color:red">H</strong>  
