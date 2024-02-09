@@ -7,6 +7,7 @@ Deze analyse is gebaseerd op:
 
 ## Tips voor leveranciers: ##
 
+* In het OroX-bestand ook bij putten het stelsel benoemen (gwsw:isPartOf) (case Heusden, Almere, ...) (20240209/mv).
 * Verduidelijk de handelingen voor de exportfunctie van GWSW.orox zodat de juiste omzetting van alle gegevens uit de native-database geborgd is.
 * Geef in een logbestand op heldere wijze aan welke gegevens zijn omgezet en welke aannames daarbij zijn gedaan. Anders blijven ook automatische "verbeteringen" verborgen.
 * Beperk de native database gaandeweg steeds meer conform de GWSW ontologie, begin bijvoorbeeld met voorgeschreven stelseltypes, puttypes, leidingtypes.
