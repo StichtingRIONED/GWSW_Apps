@@ -7,9 +7,10 @@ Het is onderdeel van het Semantisch Web en is gemodelleerd in [RDF/RDFS/OWL-2](h
 De GWSW applicaties voorzien in toegang tot de GWSW Server. Ze verzorgen de upload, toetsing en presentatie van (gemeentelijke) datasets.
 De website [apps.gwsw.nl](https://apps.gwsw.nl) biedt toegang tot GWSW Apps.
 
-Deze website is onderdeel van de github-repository GWSW van Stichting RIONED, hier vindt u: 
-- De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW/issues) aangaande GWSW Apps 
-- Documentatie bij de ontwikkeling van GWSW Apps 
+Deze website is onderdeel van de github-repository GWSW_Apps van Stichting RIONED, hier vindt u:
+- De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW_Apps/issues) aangaande GWSW Apps 
+- Documentatie bij de ontwikkeling van GWSW Apps
+  - [Werking van de HydX-download](hst_HydxDownload) Zie ook https://apps.gwsw.nl/item_hydxdownload
 	- [Evaluatie GWSW Nulmeting](hst_1)
 	- [Aandachtpunten bij export van GWSW.orox bestand](hst_2)
 	- [Aandachtspunten bij upload naar GWSW-Dataset](hst_3)
