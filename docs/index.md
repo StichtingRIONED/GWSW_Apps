@@ -11,12 +11,12 @@ Deze website is onderdeel van de github-repository GWSW_Apps van Stichting RIONE
 - De registratie van [verbetervoorstellen en foutmeldingen](https://github.com/StichtingRIONED/GWSW_Apps/issues) aangaande GWSW Apps 
 - Documentatie bij de ontwikkeling van GWSW Apps
   - [Werking van de HydX-download](hst_HydxDownload) Zie ook https://apps.gwsw.nl/item_hydxdownload
-	- [Evaluatie GWSW Nulmeting](hst_1)
 	- [Aandachtpunten bij export van GWSW.orox bestand](hst_2)
 	- [Aandachtspunten bij upload naar GWSW-Dataset](hst_3)
-	- [Kwaliteitsmaatstaven voor objecttyperingen](tab_1)
-	- [Kwaliteitsmaatstaven voor de objectkenmerken](tab_2)
-	- [Kwaliteitsmaatstaven voor het aantal voorkomens](tab_3)
+	- [Evaluatie GWSW Nulmeting](hst_1)
+	- [Kwaliteitsmeting objecttyperingen](tab_1)
+	- [Kwaliteitsmeting objectkenmerken](tab_2)
+	- [Kwaliteitsmeting aantal voorkomens](tab_3)
 
 ## GWSW Ontologie ##
 Zie voor de inhoud van de GWSW datastructuur de website [data.gwsw.nl](https://data.gwsw.nl). 
