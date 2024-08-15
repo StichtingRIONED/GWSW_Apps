@@ -20,7 +20,7 @@ Denk bij de *Gegevens* aan een  logistiek distributiecentrum van een bedrijf zoa
 
 De *Toepassingen* staan op [apps.gwsw.nl](https://apps.gwsw.nl/) en bestaan uit functionaliteiten voor het importeren, controleren en exporteren van de gegevens uit het 'distributiecentrum van het GWSW' (Figuur 1). Vanuit het beheerpakket van de gemeente wordt een uitwisselformaat geexporteerd. Deze kan via de import (upload) functionaliteit op  [apps.gwsw.nl](https://apps.gwsw.nl/) in de dataset op de GWSW-server worden gezet. Op de GWSW-server kunnen de gegevens worden gecontroleerd met behulp van (de functionaliteit van) de nulmeting. Ook kunnen de gegevens worden opgevraagd of worden geëxporteerd vanaf de GWSW-server.
 
-<img src="media/uitwisseling.jpg" style="width:100%;height:50%" />
+<img src="./uitwisseling.jpg" style="width:100%;height:50%" />
 
 *Figuur 1 - Importeren, controleren en exporteren van gegevens op de GWSW-server* 
 
@@ -61,7 +61,7 @@ Hieronder staat per beheerpakket hoe je in beeld kan krijgen welke versies van t
 
 Opvragen versie van beheerpakket: Menubalk > Info > Infovenster (Figuur 2)
 
-<img src="media/kikker_versie.jpg" style="width:50%;height:50%" />
+<img src="./kikker_versie.jpg" style="width:50%;height:50%" />
 
 *Figuur 2 - Infovenster Kikker met daarin rood omcirkeld de versie*
 
