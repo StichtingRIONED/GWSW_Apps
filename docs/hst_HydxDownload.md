@@ -1,4 +1,6 @@
-# Werking HydX-download van GWSW-Apps
+# HydX-download
+
+Dit hoofdstuk beschrijft de werking van de HydX-download met GWSW-Apps.
 
 De basis voor deze applicaties vormen queries op https://github.com/StichtingRIONED/gwsw_queries/blob/main/apps/Hyd . 
 Deze queries lezen de relevante gegevens uit de GWSW-Datasets. 
@@ -20,3 +22,9 @@ De volgende gegevens van compartimenten worden zo nodig wel overgenomen van het 
 
 Het bergend oppervlak werd in eerdere versies zonder bewerking overgenomen van het compositie-object. 
 Vanaf 20240814 wordt het bergend oppervlak evenredig verdeeld over het aantal compartimenten in het compositie-object.
+
+### Gegevens hulpstukken
+In het netwerk kunnen hulpstukken als knooppunt voorkomen. Denk dan bijvoorbeeld aan verbindingsstukken, bochtstukken en verloopstukken.
+In het HydX-formaat is voor deze knooppunten niet een apart type gereserveerd, daarom worden hulpstukken in de HydX-download gedefinieerd 
+als een geknevelde Inspectieput (code INS) met minimale afmetingen (1x1x1 mm).
+
