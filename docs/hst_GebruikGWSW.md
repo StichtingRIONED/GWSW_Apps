@@ -1,5 +1,5 @@
 # Gebruik van het GWSW
-In het GegevensWoordenboek Stedelijk Water (GWSW) worden alle objecten en gegevens van objecten, hun onderlinge relaties, en de beheeractiviteiten aan de riolering eenduidig gedefinieerd en vastgelegd ten behoeve van een soepele gegevensuitwisseling en beter beheer.
+In het Gegevenswoordenboek Stedelijk Water (GWSW) worden alle objecten en gegevens van objecten, hun onderlinge relaties, en de beheeractiviteiten aan de riolering eenduidig gedefinieerd en vastgelegd ten behoeve van een soepele gegevensuitwisseling en beter beheer.
 
 ## Aanleiding
 
