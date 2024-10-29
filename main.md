@@ -146,7 +146,7 @@ Hiervoor hebben we een stappenplan, waarmee jij kan bepalen op welke manier jij 
 
 # Details GWSW Apps
 
-## Aandachtspunten export GWSW Dataset (OroX-bestand)
+## Aandachtspunten export OroX-bestand
 
 Deze analyse is gebaseerd op:
 * de verslaggeving van Diet van Wendel (mailing dd najaar 2017) 
@@ -187,14 +187,14 @@ heeft dan als deel één óf meer Rioolstelsels. (<span style="color:red">Kikker
 * Stem af met de leveranciers hoe speciale constructie conform GWSW beschreven dienen te worden (bijvoorbeeld "doorlaat" in <span style="color:red">Obsurv</span> (case Zwolle) of 
 "spindelschuif" in <span style="color:red">Kikker</span> (melding Jafeth, 20180713)
 
-## Aandachtspunten upload GWSW Dataset (OroX-bestand)
+## Aandachtspunten upload OroX-bestand
 
 Deze analyse is gebaseerd op:
 * de verslaggeving van Diet van Wendel (mailing dd najaar 2017) 
 * de verslaggeving van Gwendolijn Vugs (notitie dd 20180124, kenmerk N002-1260650GBV-V01-hgm-NL)
 * de meldingen van de GWSW Adviseurs (vanaf februari 2018 tot heden)
 
-### Geconstateerd tijdens upload GWSW.orox ## 
+### Geconstateerd tijdens upload GWSW.orox
 
 Tip: de foutmeldingen en het vermelde regelnummer ("[line nnn]") zijn niet altijd traceerbaar in het .orox-bestand. Parse het bestand met het beheersysteem voor een aanvullende analyse.
 
@@ -261,7 +261,7 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 
 # Conformiteitsklassen
 
-## Typering objecten ##
+## Typering objecten
 In de volgende tabel staan de kwaliteitsmaatstaven voor de typering van objecten per conformiteitsklasse. Als een kwaliteitsmaatstaf niet is ingevuld, dan komt het concept niet voor in de 
 desbetreffende conformiteitsklasse.
 
@@ -362,7 +362,7 @@ Zuiveringsreservoir          | Helofytenfilter                    | <strong styl
 Zuiveringsreservoir          | IBA                                | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
 Zuiveringsreservoir          | Septictank                         | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
 
-## Kenmerken ##
+## Kenmerken
 In de volgende tabel staan de kwaliteitsmaatstaven voor de kenmerken. Als een kwaliteitsmaatstaf niet is ingevuld, dan is het kenmerk niet verplicht in de conformiteitsklasse. 
 
 ### Legenda: Kwaliteit kenmerken
