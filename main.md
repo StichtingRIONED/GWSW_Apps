@@ -259,7 +259,11 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 * Staat er voldoende informatie in om conclusies te kunnen trekken?
 * Welke vervolgrapportage (met die conclusies) moet er komen?
 
-# Conformiteitsklassen
+# Conformiteitsklassen - Gegevensgebruiksniveau
+
+Zie het voorstel van de werkgroep GWSW-CFK in de [spraadsheet](conformiteitsklassen/20230929%20CFK%20overzicht%20TYPERING%20-%20Marinus.xlsx) CFK overzicht TYPERING.xlsx
+
+# Conformiteitsklassen - oud
 
 ## Typering objecten
 In de volgende tabel staan de kwaliteitsmaatstaven voor de typering van objecten per conformiteitsklasse. Als een kwaliteitsmaatstaf niet is ingevuld, dan komt het concept niet voor in de 
