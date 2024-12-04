@@ -280,7 +280,7 @@ In de spreadsheets is per fysiek object en gebruiksniveau een markering opgenome
 
 | Niveaunaam | Omschrijving                                                        | CFK-code | Deelmodel   |
 |------------|---------------------------------------------------------------------|----------|-------------|
-| RIBX       | Reiniging en inspectie vrijverval riolering                         | R        | RibHeen     |
+| Ribx       | Reiniging en inspectie vrijverval riolering                         | R        | RibHeen     |
 | Modelleren | Hydraulisch modelleren, berekenen                                   | H        | Hyd         |
 | Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen           | K        | Kengetallen |
 | Ligging    | Ligging en globale objectinformatie van hoofdriolering (bijv. PDOK) | M        | Mds         |
