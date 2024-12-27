@@ -275,24 +275,24 @@ In de spreadsheets is per fysiek object en gebruiksniveau een markering opgenome
 * G - Het objecttype (de klasse) doet mee, valt binnen het gebruiksniveau
 * N - Het objecttype is niet relevant/neutraal, valt buiten het gebruiksniveau
 * F - Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype
-
+  
 ## Vijf gebruiksniveaus
 
-| Niveaunaam | Omschrijving                                                        | CFK-code | Deelmodel   |
+| Niveaunaam | Omschrijving                                                        | CFK-nr   | Deelmodel   |
 |------------|---------------------------------------------------------------------|----------|-------------|
-| Ribx       | Reiniging en inspectie vrijverval riolering                         | R        | RibHeen     |
-| Modelleren | Hydraulisch modelleren, berekenen                                   | H        | Hyd         |
-| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen           | K        | Kengetallen |
-| Ligging    | Ligging en globale objectinformatie van hoofdriolering (bijv. PDOK) | M        | Mds         |
-| Volledig   | Alle stedelijk water objecten                                       | B        | Basis       |
+| Ligging    | Ligging en globale objectinformatie van hoofdriolering (bijv. PDOK) | 10       | Mds         |
+| Modelleren | Hydraulisch modelleren, berekenen                                   | 11       | Hyd         |
+| Ribx       | Reiniging en inspectie vrijverval riolering                         | 12       | RibHeen     |
+| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen           | 13       | Kengetallen |
+| Volledig   | Alle stedelijk water objecten                                       | 14       | Basis       |
 
 ### Notatie in datamodel
 
 De gegevensgebruiksniveau's zijn als notatie in het GWSW-datamodel opgenomen met het predikaat gwsw:hasValidity bij de klassebeschrijving, 
 zie ook de [beschrijving Validity Context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).  
 
-Het in de tabel genoemde deelmodel omvat minimaal de fysieke objecten van het gebruiksniveau. Met behulp van de datamodel-notaties kan binnen
-het deelmodel de gebruiksniveau-definitie verder worden aangescherpt, de notatie kan markeren dat het objecttype niet relevant is of te abstract is.
+Het in de tabel genoemde deelmodel omvat minimaal de fysieke objecten van het gebruiksniveau. Met de datamodel-notaties wordt binnen
+het deelmodel de gebruiksniveau-definitie verder aangescherpt, de notatie kan markeren dat het objecttype niet relevant is of te abstract is.
 
 ## Eisenlijst
 
