@@ -261,10 +261,11 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 
 # Gegevensgebruiksniveaus
 
-Gegevensgebruiksniveau's zijn bedoeld als handvat voor beheerders en applicatieleveranciers. Bij de ontwikkeling van het GWSW wordt het 
-gegevensgebruiksniveau aangeduid met de meer technische term "conformiteitsklasse" (CFK).
+Gegevensgebruiksniveau's zijn bedoeld als handvat voor beheerders en applicatieleveranciers.
 Een gegevensgebruiksniveau bevat de definitie van de gewenste gegevensopbouw in relatie tot een bepaalde toepassing.  
 Ze zijn een toetsingsmiddel voor bijvoorbeeld een beheersysteem, is de databasedefinitie en -vulling op orde?
+
+Bij de ontwikkeling van het GWSW wordt het gegevensgebruiksniveau aangeduid met de meer technische term "conformiteitsklasse" (CFK).
 
 ## Ontwerp
 
