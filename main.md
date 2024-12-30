@@ -261,7 +261,8 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 
 # Gegevensgebruiksniveaus
 
-Gegevensgebruiksniveau's zijn bedoeld als handvat voor beheerders en applicatieleveranciers.
+Gegevensgebruiksniveau's zijn bedoeld als handvat voor beheerders en applicatieleveranciers. Bij de ontwikkeling van het GWSW wordt het 
+gegevensgebruiksniveau aangeduid met de meer technische term "conformiteitsklasse" (CFK).
 Een gegevensgebruiksniveau bevat de definitie van de gewenste gegevensopbouw in relatie tot een bepaalde toepassing.  
 Ze zijn een toetsingsmiddel voor bijvoorbeeld een beheersysteem, is de databasedefinitie en -vulling op orde?
 
@@ -272,26 +273,30 @@ en de [spreadsheet Kenmerken](conformiteitsklassen/20231002%20CFK%20overzicht%20
 Deze spreadsheets bevatten de omschrijving van vijf nieuwe gegevensgebruiksniveau's.  
 
 In de spreadsheets is per fysiek object en gebruiksniveau een markering opgenomen:
-* G - Het objecttype (de klasse) doet mee, valt binnen het gebruiksniveau
-* N - Het objecttype is niet relevant/neutraal, valt buiten het gebruiksniveau
+* G - Het objecttype (de klasse) of de eigenschap doet mee, valt binnen het gebruiksniveau
+* N - Het objecttype of de eigenschap is niet relevant/neutraal, valt buiten het gebruiksniveau
 * F - Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype
   
 ## Vijf gebruiksniveaus
 
-| Niveaunaam | Omschrijving                                                        | CFK-nr   | Deelmodel   |
-|------------|---------------------------------------------------------------------|----------|-------------|
-| Ligging    | Ligging en globale objectinformatie van hoofdriolering (bijv. PDOK) | 10       | Mds         |
-| Modelleren | Hydraulisch modelleren, berekenen                                   | 11       | Hyd         |
-| Ribx       | Reiniging en inspectie vrijverval riolering                         | 12       | RibHeen     |
-| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen           | 13       | Kengetallen |
-| Volledig   | Alle stedelijk water objecten                                       | 14       | Basis       |
+| Niveaunaam | Omschrijving                                               | CFK-nr | Deelmodel   |
+|------------|------------------------------------------------------------|--------|-------------|
+| Ligging    | Ligging en globale objectinformatie van hoofdriolering     | 10     | Mds         |
+|            | Fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK |        |             |
+| Modelleren | Hydraulisch modelleren                                     | 11     | Hyd         |
+|            | Hydraulisch relevante fysieke objecten, meer detail        |        |             |
+| Ribx       | Reiniging en inspectie vrijverval riolering                | 12     | RibHeen     |
+|            | Fysieke objecten, waar beheer op nodig is                  |        |             |
+| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen  | 13     | Kengetallen |
+|            | Beperkte hoeveelheid fysieke objecten, minder detail       |        |             |
+| Volledig   | Alle stedelijk water objecten                              | 14     | Basis       |
 
 ### Notatie in datamodel
 
-De gegevensgebruiksniveau's zijn als notatie in het GWSW-datamodel opgenomen met het predikaat gwsw:hasValidity bij de klassebeschrijving, 
+De gegevensgebruiksniveau's zijn als CFK-notatie in het GWSW-datamodel opgenomen met het predikaat gwsw:hasValidity bij de klassebeschrijving, 
 zie ook de [beschrijving Validity Context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).  
 
-Het in de tabel genoemde deelmodel omvat minimaal de fysieke objecten van het gebruiksniveau. Met de datamodel-notaties wordt binnen
+Het in de tabel genoemde deelmodel omvat minimaal de fysieke objecten van het gebruiksniveau. Met de CFK-notaties wordt binnen
 het deelmodel de gebruiksniveau-definitie verder aangescherpt, de notatie kan markeren dat het objecttype niet relevant is of te abstract is.
 
 ## Eisenlijst
@@ -299,7 +304,7 @@ het deelmodel de gebruiksniveau-definitie verder aangescherpt, de notatie kan ma
 Een eisenlijst bevat voorwaarden waarmee de gegevens van fysieke objecten, in bijvoorbeeld een rioolbeheerpakket, 
 getoetst kunnen worden op (de mate van) volledigheid, betrouwbaarheid en nauwkeurigheid.
 
-Op basis van de gebruiksniveau-notaties in het GWSW-datamodel kan met GWSW Apps zo'n eisenlijst worden opgevraagd. 
+Op basis van de CFK-notaties in het GWSW-datamodel kan met GWSW Apps zo'n eisenlijst worden opgevraagd. 
 De lijst wordt dan automatisch samengesteld op basis van een niveaunaam of een combinatie daarvan.  
 
 Als de beheerder met zijn gegevens bijvoorbeeld een hydraulische doorrekening wil maken en ook een fatsoenlijke gegevenspresentatie voor PDOK wil leveren, 
