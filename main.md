@@ -280,17 +280,13 @@ In de spreadsheets is per fysiek object en gebruiksniveau een markering opgenome
   
 ## Vijf gebruiksniveaus
 
-| Niveaunaam | Omschrijving                                               | CFK-nr | Deelmodel   |
-|------------|------------------------------------------------------------|--------|-------------|
-| Ligging    | Ligging en globale objectinformatie van hoofdriolering     | 10     | Mds         |
-|            | Fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK |        |             |
-| Modelleren | Hydraulisch modelleren                                     | 11     | Hyd         |
-|            | Hydraulisch relevante fysieke objecten, meer detail        |        |             |
-| Ribx       | Reiniging en inspectie vrijverval riolering                | 12     | RibHeen     |
-|            | Fysieke objecten, waar beheer op nodig is                  |        |             |
-| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen  | 13     | Kengetallen |
-|            | Beperkte hoeveelheid fysieke objecten, minder detail       |        |             |
-| Volledig   | Alle stedelijk water objecten                              | 14     | Basis       |
+| Niveaunaam | Omschrijving                                                                                                        | CFK-nr | Deelmodel   |
+|------------|---------------------------------------------------------------------------------------------------------------------|--------|-------------|
+| Ligging    | Ligging en globale objectinformatie van hoofdriolering (fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK) | 10     | Mds         |
+| Modelleren | Hydraulisch modelleren (hydraulisch relevante fysieke objecten, meer detail)                                        | 11     | Hyd         |
+| Ribx       | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                             | 12     | RibHeen     |
+| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, minder detail)    | 13     | Kengetallen |
+| Volledig   | Alle stedelijk water objecten                                                                                       | 14     | Basis       |
 
 ### Notatie in datamodel
 
