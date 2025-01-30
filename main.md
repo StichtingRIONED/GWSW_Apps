@@ -142,10 +142,10 @@ Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED, zie de sa
 
 De spreadsheet bevat de inhoud van vijf nieuwe gegevensgebruiksniveaus. Per gebruiksniveau is een markering opgenomen:
 
-Bij de voorkomens van fysieke objecten:
-* **g**   Het objecttype (de klasse) is relevant, valt binnen het gebruiksniveau
-* **f**   Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype
-* **-**   Het objecttype is niet relevant, valt buiten het gebruiksniveau
+Bij de voorkomens van fysieke objecten:  
+ **g**   Het objecttype (de klasse) is relevant, valt binnen het gebruiksniveau  
+ **f**   Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype  
+ **-**   Het objecttype is niet relevant, valt buiten het gebruiksniveau
 
 Bij de eigenschappen (kenmerken) van fysieke objecten:
 * **g**   Het kenmerk is noodzakelijk binnen het gebruiksniveau (moet bekend zijn)
