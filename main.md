@@ -136,32 +136,31 @@ Bij de ontwikkeling van het GWSW wordt het gegevensgebruiksniveau aangeduid met 
 
 ## Ontwerp
 
-Door de werkgroep zijn er vijf gegevensgebruiksniveaus gedefinieerd. De opdracht aan de werkgroep was om per gegevensgebruiksniveau een lijst te hebben, waarmee de gegevens, in bijvoorbeeld een rioolbeheerpakket, getoetst kunnen worden op (de mate van) volledigheid, betrouwbaarheid en nauwkeurigheid. Eind september/begin oktober 2023 zijn deze lijsten opgeleverd aan Stichting RIONED: [spreadsheet Typering](conformiteitsklassen/20230929%20CFK%20overzicht%20TYPERING%20-%20Marinus.xlsx) en de [spreadsheet Kenmerken](conformiteitsklassen/20231002%20CFK%20overzicht%20KENMERKEN%20-%20Marinus.xlsx).
+Door de werkgroep zijn er vijf gegevensgebruiksniveaus gedefinieerd. De opdracht aan de werkgroep was om per gegevensgebruiksniveau een lijst te hebben, waarmee de gegevens, 
+in bijvoorbeeld een rioolbeheerpakket, getoetst kunnen worden op (de mate van) volledigheid, betrouwbaarheid en nauwkeurigheid. 
+Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED, zie de samenvatting in [spreadsheet met overzicht gebruiksniveaus](conformiteitsklassen/Vergelijking%20app-wg.xlsm). 
 
-Deze spreadsheets bevatten de omschrijving van vijf nieuwe gegevensgebruiksniveaus.  
+De spreadsheet bevat de omschrijving van vijf nieuwe gegevensgebruiksniveaus. Per gebruiksniveau is een markering opgenomen:
 
-In de spreadsheets is per fysiek object en gebruiksniveau een markering opgenomen:
-* G - Het objecttype (de klasse) of de eigenschap doet mee, valt binnen het gebruiksniveau
-* N - Het objecttype of de eigenschap is niet relevant/neutraal, valt buiten het gebruiksniveau
-* F - Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype
-  
+Bij de voorkomens van fysieke objecten:
+* **g** Het objecttype (de klasse) is relevant, valt binnen het gebruiksniveau
+* **f** Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype
+* **-** Het objecttype is niet relevant, valt buiten het gebruiksniveau
+
+Bij de eigenschappen (kenmerken) van fysieke objecten:
+* **g** Het kenmerk is noodzakelijk binnen het gebruiksniveau (moet bekend zijn)
+* **o** Het kenmerk is optioneel binnen het gebruiksniveau (mag bekend zijn)
+* **-** Het kenmerk is niet relevant, valt buiten het gebruiksniveau
+
 ## Vijf gebruiksniveaus
 
-| Niveaunaam | Omschrijving                                                                                                        | CFK-nr | Deelmodel   |
-|------------|---------------------------------------------------------------------------------------------------------------------|--------|-------------|
-| Ligging    | Ligging en globale objectinformatie van hoofdriolering (fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK) | 10     | Mds         |
-| Modelleren | Hydraulisch modelleren (hydraulisch relevante fysieke objecten, meer detail)                                        | 11     | Hyd         |
-| Ribx       | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                             | 12     | RibHeen     |
-| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, minder detail)    | 13     | Kengetallen |
-| Volledig   | Alle stedelijk water objecten                                                                                       | 14     | Basis       |
-
-### Notatie in datamodel
-
-De gegevensgebruiksniveaus zijn als CFK-notatie in het GWSW-datamodel opgenomen met het predikaat gwsw:hasValidity bij de klassebeschrijving, 
-zie ook de [beschrijving Validity Context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).  
-
-Het in de tabel genoemde deelmodel omvat minimaal de fysieke objecten van het gebruiksniveau. Met de CFK-notaties wordt binnen
-het deelmodel de gebruiksniveau-definitie verder aangescherpt, de notatie kan markeren dat het objecttype niet relevant is of te abstract is.
+| Niveaunaam | Omschrijving                                                                                                        |
+|------------|---------------------------------------------------------------------------------------------------------------------|
+| Ligging    | Ligging en globale objectinformatie van hoofdriolering (fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK) |
+| Modelleren | Hydraulisch modelleren (hydraulisch relevante fysieke objecten, meer detail)                                        |
+| RibX       | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                             |
+| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, minder detail)    |
+| Volledig   | Alle stedelijk water objecten, de gecombineerde gebruiksniveaus                                                     |
 
 ## Eisenlijst
 
@@ -170,6 +169,25 @@ Deze lijst wordt samengesteld op basis van de door de persoon gekozen (één of 
 
 Als de beheerder met de rioolgegevens bijvoorbeeld een hydraulische doorrekening wil laten maken en ook een fatsoenlijke gegevenspresentatie voor PDOK wil leveren, 
 dan kiest deze persoon voor de gebruiksniveaus *Modelleren* en *Ligging*.
+
+## Techniek
+
+### Notatie in datamodel
+
+Het GWSW-datamodel wordt voor de gegevensnviveaus gefilterd op de CoF-code (collection of facts). Zie de 
+[details deelmodellen](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#details-deelmodellen). De volgende tabel bevat de gehanteerde CoF'en per gebruiksniveau.
+
+Met zogenaamde CFK-notaties wordt (binnen het filter op CoF'en) de gebruiksniveau-definitie verder aangescherpt, 
+de notatie kan bijvoorbeeld markeren dat het objecttype niet relevant is of te abstract is.
+De CFK-notatie staat in het GWSW-datamodel, zie ook de [beschrijving Validity Context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).
+
+| Niveaunaam |  CoF                 | CFK-nr |
+|------------|----------------------|--------|
+| Ligging    |  TOP MDS BAS         | 10     |
+| Modelleren |  TOP HYD             | 11     |
+| RibX       |  TOP MDS             | 12     |
+| Prognoses  |  TOP DMO             | 13     |
+| Volledig   |  TOP MDS BAS HYD DNO | 14     |
 
 # Conformiteitsklassen - oud
 
