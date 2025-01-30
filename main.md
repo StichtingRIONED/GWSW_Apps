@@ -165,7 +165,7 @@ Bij de eigenschappen (kenmerken) van fysieke objecten:
 | Ligging    | Ligging en globale objectinformatie van hoofdriolering (fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK) |
 | Modelleren | Hydraulisch modelleren (hydraulisch relevante fysieke objecten, meer detail)                                        |
 | RibX       | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                             |
-| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, minder detail)    |
+| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, globaal niveau: gebieden, systemen, stelsels) |
 | Volledig   | Alle stedelijk water objecten, de gecombineerde gebruiksniveaus                                                     |
 
 ## Eisenlijst
