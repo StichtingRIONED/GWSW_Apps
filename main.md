@@ -143,14 +143,20 @@ Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED, zie de sa
 De spreadsheet bevat de inhoud van vijf nieuwe gegevensgebruiksniveaus. Per gebruiksniveau is een markering opgenomen:
 
 Bij de voorkomens van fysieke objecten:  
- **g**   Het objecttype (de klasse) is relevant, valt binnen het gebruiksniveau  
- **f**   Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype  
- **-**   Het objecttype is niet relevant, valt buiten het gebruiksniveau
+
+| code | omschrijving                                                                           |
+|------|----------------------------------------------------------------------------------------|
+| g    | Het objecttype (de klasse) is relevant, valt binnen het gebruiksniveau                 |
+| f    | Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype |
+| -    | Het objecttype is niet relevant, valt buiten het gebruiksniveau                        |
 
 Bij de eigenschappen (kenmerken) van fysieke objecten:
-* **g**   Het kenmerk is noodzakelijk binnen het gebruiksniveau (moet bekend zijn)
-* **o**   Het kenmerk is optioneel binnen het gebruiksniveau (kan bekend zijn)
-* **-**   Het kenmerk is niet relevant, valt buiten het gebruiksniveau
+
+| code | omschrijving                                                             |
+|------|--------------------------------------------------------------------------|
+| g    | Het kenmerk is noodzakelijk binnen het gebruiksniveau (moet bekend zijn) |
+| o    | Het kenmerk is optioneel binnen het gebruiksniveau (kan bekend zijn)     |
+| -    | Het kenmerk is niet relevant, valt buiten het gebruiksniveau             |
 
 ## Vijf gebruiksniveaus
 
@@ -181,13 +187,13 @@ Met zogenaamde CFK-notaties wordt (binnen het filter op CoF'en) de gebruiksnivea
 de notatie kan bijvoorbeeld markeren dat het objecttype niet relevant is of te abstract is.
 De CFK-notatie staat in het GWSW-datamodel, zie ook de [beschrijving Validity Context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).
 
-| Niveaunaam |  CoF                 | CFK-nr |
-|------------|----------------------|--------|
-| Ligging    |  TOP MDS BAS         | 10     |
-| Modelleren |  TOP HYD             | 11     |
-| RibX       |  TOP MDS             | 12     |
-| Prognoses  |  TOP DMO             | 13     |
-| Volledig   |  TOP MDS BAS HYD DNO | 14     |
+| Niveaunaam | CoF                 | CFK-nr |
+|------------|---------------------|--------|
+| Ligging    | TOP MDS BAS         | 10     |
+| Modelleren | TOP HYD             | 11     |
+| RibX       | TOP MDS             | 12     |
+| Prognoses  | TOP DMO             | 13     |
+| Volledig   | TOP MDS BAS HYD DNO | 14     |
 
 # Conformiteitsklassen - oud
 
