@@ -140,7 +140,7 @@ Door de werkgroep zijn er vijf gegevensgebruiksniveaus gedefinieerd. De opdracht
 in bijvoorbeeld een rioolbeheerpakket, getoetst kunnen worden op (de mate van) volledigheid, betrouwbaarheid en nauwkeurigheid. 
 Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED, zie de samenvatting in [spreadsheet met overzicht gebruiksniveaus](conformiteitsklassen/Vergelijking%20app-wg.xlsm). 
 
-De spreadsheet bevat de omschrijving van vijf nieuwe gegevensgebruiksniveaus. Per gebruiksniveau is een markering opgenomen:
+De spreadsheet bevat de inhoud van vijf nieuwe gegevensgebruiksniveaus. Per gebruiksniveau is een markering opgenomen:
 
 Bij de voorkomens van fysieke objecten:
 * **g** Het objecttype (de klasse) is relevant, valt binnen het gebruiksniveau
@@ -149,7 +149,7 @@ Bij de voorkomens van fysieke objecten:
 
 Bij de eigenschappen (kenmerken) van fysieke objecten:
 * **g** Het kenmerk is noodzakelijk binnen het gebruiksniveau (moet bekend zijn)
-* **o** Het kenmerk is optioneel binnen het gebruiksniveau (mag bekend zijn)
+* **o** Het kenmerk is optioneel binnen het gebruiksniveau (kan bekend zijn)
 * **-** Het kenmerk is niet relevant, valt buiten het gebruiksniveau
 
 ## Vijf gebruiksniveaus
