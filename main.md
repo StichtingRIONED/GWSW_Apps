@@ -180,12 +180,12 @@ dan kiest deze persoon voor de gebruiksniveaus *Modelleren* en *Ligging*.
 
 ### Notatie in datamodel
 
-Het GWSW-datamodel wordt voor de gegevensnviveaus gefilterd op de CoF-code (collection of facts). Zie de 
+Het GWSW-datamodel wordt voor de gegevensnviveaus gefilterd op de CoF-code (collection of facts). Zie ook 
 [details deelmodellen](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#details-deelmodellen). De volgende tabel bevat de gehanteerde CoF'en per gebruiksniveau.
 
 Met zogenaamde CFK-notaties wordt (binnen het filter op CoF'en) de gebruiksniveau-definitie verder aangescherpt, 
 de notatie kan bijvoorbeeld markeren dat het objecttype niet relevant is of te abstract is.
-De CFK-notatie staat in het GWSW-datamodel, zie ook de [beschrijving Validity Context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).
+De CFK-notatie staat in het GWSW-datamodel, zie ook [validity context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).
 
 | Niveaunaam | CoF                 | CFK-nr |
 |------------|---------------------|--------|
