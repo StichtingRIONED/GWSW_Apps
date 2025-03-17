@@ -193,7 +193,7 @@ De CFK-notatie staat in het GWSW-datamodel, zie ook [validity context](https://s
 | Modelleren | TOP HYD             | 11     |
 | RibX       | TOP MDS             | 12     |
 | Prognoses  | TOP DMO             | 13     |
-| Volledig   | TOP MDS BAS HYD DNO | 14     |
+| Volledig   | TOP MDS BAS HYD DMO | 14     |
 
 # Conformiteitsklassen - oud
 
