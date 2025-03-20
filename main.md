@@ -170,10 +170,10 @@ Bij de eigenschappen (kenmerken) van fysieke objecten:
 
 ## Eisenlijst
 
-Met GWSW apps kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een eisenlijst voor onder andere softwareleveranciers worden samengesteld.
+Met GWSW Apps kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een eisenlijst voor onder andere softwareleveranciers worden samengesteld.
 Deze lijst wordt samengesteld op basis van de door de persoon gekozen (één of meerdere) gegevensgebruiksniveaus.  
 
-Als de beheerder met de rioolgegevens bijvoorbeeld een hydraulische doorrekening wil laten maken en ook een fatsoenlijke gegevenspresentatie voor PDOK wil leveren, 
+Als de beheerder met de rioleringsgegevens bijvoorbeeld een hydraulische doorrekening wil laten maken en ook een fatsoenlijke gegevenspresentatie voor PDOK wil leveren, 
 dan kiest deze persoon voor de gebruiksniveaus *Modelleren* en *Ligging*.
 
 ## Techniek
