@@ -128,59 +128,61 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 
 # Gegevensgebruiksniveaus
 
-Gegevensgebruiksniveaus zijn bedoeld als handvat voor beheerders en applicatieleveranciers.
-Een gegevensgebruiksniveau bevat de definitie van de gewenste gegevensopbouw in relatie tot een bepaalde toepassing.  
-Dit zijn kwaliteitseisen om te meten of de gegevens voldoende zijn om te gebruiken voor een bepaalde toepassing.
+Gegevensgebruiksniveaus zijn bedoeld als handvat voor beheerders en applicatieleveranciers van beheersoftware. Een gegevensgebruiksniveau definieert de gegevensbehoefte van de beheerder in relatie tot een bepaalde toepassing. Het is een beschrijving van objecttypen en de eigenschappen (kenmerken) voor diverse beheeraspecten.
 
-Bij de ontwikkeling van het GWSW wordt het gegevensgebruiksniveau aangeduid met de meer technische term "conformiteitsklasse" (CFK).
+De (technische) restricties op objecttypen, relaties, kenmerken en waardentypen, noodzakelijk voor een goede werking van (GWSW-) toepassingen worden conformiteitsklassen genoemd. Zie hiervoor [Hoofdstuk 4](#h4).
 
 ## Ontwerp
 
-Door de werkgroep zijn er vijf gegevensgebruiksniveaus gedefinieerd. De opdracht aan de werkgroep was om per gegevensgebruiksniveau een lijst te hebben, waarmee de gegevens, 
-in bijvoorbeeld een rioolbeheerpakket, getoetst kunnen worden op (de mate van) volledigheid, betrouwbaarheid en nauwkeurigheid. 
-Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED, zie de samenvatting in [spreadsheet met overzicht gebruiksniveaus](conformiteitsklassen/Vergelijking%20app-wg.xlsm). 
+De opdracht aan de werkgroep was om per gegevensgebruiksniveau een lijst te hebben, waarmee de gegevens, in bijvoorbeeld een rioolbeheerpakket, getoetst kunnen worden op (de mate van) volledigheid, betrouwbaarheid en nauwkeurigheid. 
+Als eerste zijn door de werkgroep de volgende gegevensgebruiksniveaus gedefinieerd:
 
-De spreadsheet bevat de inhoud van vijf nieuwe gegevensgebruiksniveaus. Per gebruiksniveau is een markering opgenomen:
+| Niveaunaam | Omschrijving                                                                                                                                    |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ligging    | Ligging en globale objectinformatie van hoofdriolering (fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK)                             |
+| Modelleren | Hydraulisch modelleren (hydraulisch relevante fysieke objecten, meer detail)                                                                    |
+| RibX       | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                                                         |
+| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, globaal niveau: gebieden, systemen, stelsels) |
+| Volledig   | Alle stedelijk water objecten, de gecombineerde gebruiksniveaus                                                                                 |
+
+Vervolgens is voor elk gegevensgebruiksniveau een lijst van benodigde fysieke objecten en benodigde kenmerken opgesteld. 
+Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED. Deze zijn te vinden in de [spreadsheet met overzicht gebruiksniveaus](conformiteitsklassen/Vergelijking%20app-wg.xlsx). 
+
+De spreadsheet bevat de inhoud van de vijf nieuwe gegevensgebruiksniveaus in het GWSW. Per gegevensgebruiksniveau is een markering opgenomen:
 
 Bij de voorkomens van fysieke objecten:  
 
-| code | omschrijving                                                                           |
-|------|----------------------------------------------------------------------------------------|
-| g    | Het objecttype (de klasse) is relevant, valt binnen het gebruiksniveau                 |
-| f    | Het objecttype valt binnen het gebruiksniveau maar is te abstract, gebruik een subtype |
-| -    | Het objecttype is niet relevant, valt buiten het gebruiksniveau                        |
+| code | omschrijving                                                                                   |
+|------|------------------------------------------------------------------------------------------------|
+| g    | Het objecttype (de klasse) is relevant, valt binnen het gegevensgebruiksniveau                 |
+| f    | Het objecttype valt binnen het gegevensgebruiksniveau maar is te abstract, gebruik een subtype |
+| -    | Het objecttype is niet relevant, valt buiten het gegevensgebruiksniveau                        |
 
 Bij de eigenschappen (kenmerken) van fysieke objecten:
 
-| code | omschrijving                                                             |
-|------|--------------------------------------------------------------------------|
-| g    | Het kenmerk is noodzakelijk binnen het gebruiksniveau (moet bekend zijn) |
-| o    | Het kenmerk is optioneel binnen het gebruiksniveau (kan bekend zijn)     |
-| -    | Het kenmerk is niet relevant, valt buiten het gebruiksniveau             |
-
-## Vijf gebruiksniveaus
-
-| Niveaunaam | Omschrijving                                                                                                        |
-|------------|---------------------------------------------------------------------------------------------------------------------|
-| Ligging    | Ligging en globale objectinformatie van hoofdriolering (fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK) |
-| Modelleren | Hydraulisch modelleren (hydraulisch relevante fysieke objecten, meer detail)                                        |
-| RibX       | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                             |
-| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, globaal niveau: gebieden, systemen, stelsels) |
-| Volledig   | Alle stedelijk water objecten, de gecombineerde gebruiksniveaus                                                     |
+| code | omschrijving                                                                     |
+|------|----------------------------------------------------------------------------------|
+| g    | Het kenmerk is noodzakelijk binnen het gegevensgebruiksniveau (moet bekend zijn) |
+| o    | Het kenmerk is optioneel binnen het gegevensgebruiksniveau (kan bekend zijn)     |
+| -    | Het kenmerk is niet relevant, valt buiten het gegevensgebruiksniveau             |
 
 ## Eisenlijst
 
-Met GWSW Apps kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een eisenlijst voor onder andere softwareleveranciers worden samengesteld.
+Met [GWSW Apps](https://apps.gwsw.nl/item_publish_cfk) kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een eisenlijst voor onder andere softwareleveranciers worden samengesteld.
 Deze lijst wordt samengesteld op basis van de door de persoon gekozen (één of meerdere) gegevensgebruiksniveaus.  
 
 Als de beheerder met de rioleringsgegevens bijvoorbeeld een hydraulische doorrekening wil laten maken en ook een fatsoenlijke gegevenspresentatie voor PDOK wil leveren, 
 dan kiest deze persoon voor de gebruiksniveaus *Modelleren* en *Ligging*.
 
+Bij de aanbesteding of inkoop van een (nieuw) beheerpakket of andersoortige applicatie kan de opdrachtgever verwijzen naar de gegevensgebruiksniveaus als specificatie van de eisen waar de applicatie aan dient te voldoen. De leverancier zal dat dan moeten (kunnen) aantonen.
+
+Daarnaast maken de gegevensgebruiksniveaus onderdeel uit van de applicatietoetsing.
+
 ## Techniek
 
 ### Notatie in datamodel
 
-Het GWSW-datamodel wordt voor de gegevensnviveaus gefilterd op de CoF-code (collection of facts). Zie ook 
+Het GWSW-datamodel wordt voor de gegevensgebruiksnviveaus gefilterd op de CoF-code (collection of facts). Zie ook 
 [details deelmodellen](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#details-deelmodellen). De volgende tabel bevat de gehanteerde CoF'en per gebruiksniveau.
 
 Met zogenaamde CFK-notaties wordt (binnen het filter op CoF'en) de gebruiksniveau-definitie verder aangescherpt, 
@@ -195,108 +197,12 @@ De CFK-notatie staat in het GWSW-datamodel, zie ook [validity context](https://s
 | Prognoses  | TOP DMO             | 13     |
 | Volledig   | TOP MDS BAS HYD DMO | 14     |
 
-# Conformiteitsklassen - oud
+# Conformiteitsklassen (CFKen)
 
-## Typering objecten
-In de volgende tabel staan de kwaliteitsmaatstaven voor de typering van objecten per conformiteitsklasse. Als een kwaliteitsmaatstaf niet is ingevuld, dan komt het concept niet voor in de 
-desbetreffende conformiteitsklasse.
+Waar gegevensgebruiksniveaus vooral de beschrijving en eigenschappen van fysieke objecten definiëren passend bij het gebruik van de gegevens voor (beheer-)toepassingen, geven conformiteitsklassen (CFKs) de technische restricties daarvan binnen (GWSW-)toepassingen.
+Kort gezegd: Gegevensgebruiksniveaus bepalen **of** het object of het kenmerk in de gegevens zit en Conformiteitsklassen bepalen **hoe** (met welke kwaliteit) het object of kenmerk in de gegevens zit.
 
-### Legenda: Kwaliteit typering
-
-Kwaliteitsmaatstaf | Code                                   | Omschrijving
--------------------|----------------------------------------|----------------------------------------
-Fout               | <strong style="color:red">F</strong>   | Het object is onvoldoende getypeerd
-Goed               | <strong style="color:green">G</strong> | De typering van het object is voldoende
-
-### Maatstaven: Kwaliteit typering
-
-Supertype               | Naam concept              | MdsPlan                                | MdsProj                                | Hyd
-------------------------|---------------------------|----------------------------------------|----------------------------------------|---------------------------------------
-Fysiek object           | Stelsel                   | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong>
-Stelsel                 | Rioolstelsel              | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong>
-Rioolstelsel            | Vrijverval rioolstelsel   | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong>
-Vrijverval rioolstelsel | Gemengd stelsel           | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> | <strong style="color:green">G</strong>
-Gemengd stelsel         | Verbeterd gemengd stelsel | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> | <strong style="color:green">G</strong>
-Vrijverval rioolstelsel | Hemelwaterstelsel         | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> | <strong style="color:green">G</strong>
-Vrijverval rioolstelsel | Vuilwaterstelsel          | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> | <strong style="color:green">G</strong>
-Vrijverval rioolstelsel | Onderbemaling             | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong>
-Rioolstelsel                 | Mechanisch rioolstelsel            | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   
-Mechanisch rioolstelsel      | Drukriolering                      | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> 
-Mechanisch rioolstelsel      | Vacuümriolering                    | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> 
-Drainagestelsel              | Mechanisch drainagestelsel          
-Drainagestelsel              | Vrijverval drainagestelsel          
-Stelsel                      | Transportstelsel                   | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Transportstelsel             | Persleidingsysteem                 | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Transportstelsel             | Vrijverval transportstelsel        | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Fysiek object                | Put                                | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Put                          | Aansluitput                        | 
-Put                          | Drainageput                        | 
-Put                          | Filterput                          | 
-Put                          | Slokop                             | 
-Put                          | Beerput                            | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Put                          | Infiltratieput                     | 
-Put                          | Kolk                               | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> 
-Kolk                         | Trottoirkolk                       | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> 
-Kolk                         | Straatkolk                         | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> 
-Kolk                         | Infiltratiekolk                    | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> 
-Kolk                         | Gecombineerde straat- trottoirkolk | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> 
-Rioolput                     | Bijzondere putconstructie          | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Put                          | Aansluitput                        | 
-Rioolput                     | Doorspoelput                       | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Rioolput                     | Inspectieput                       | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Rioolput                     | Kruisingsput                       | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Rioolput                     | Zinkerput                          | 
-Rioolput                     | Stuwput                            | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Rioolput                     | Lozingsput                         | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Rioolput                     | Overstortput                       | <strong style="color:red">F</strong>    | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Overstortput                 | Externe overstortput               | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Overstortput                 | Interne overstortput               | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Rioolput                     | Verdekte put                       | <strong style="color:green">G</strong> 
-Rioolput                     | Pompput                            | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Pompput                      | Pompunit                           | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Pompput                      | Vacuümpompstation                  | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Fysiek object                | Leiding                            | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Leiding                      | Drain                              | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Leiding                      | Duiker                             | 
-Leiding                      | Mantelbuis                         | 
-Rioolleiding                 | Aansluitleiding                    | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Aansluitleiding              | Kolkaansluitleiding                | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Aansluitleiding              | Perceelaansluitleiding             | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Rioolleiding                 | Mechanische rioolleiding           | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Mechanische rioolleiding     | Drukleiding                        | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Mechanische rioolleiding     | Vacuümleiding                      | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Leiding                      | Vrijverval rioolleiding            | <strong style="color:red">F</strong>    | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Bergbezinkleiding                  | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Bergingsleiding                    | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Gemengd riool                      | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Hemelwaterriool                    | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Infiltratieriool                   | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Overstortleiding                   | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Stuwrioolleiding                   | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Vuilwaterriool                     | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Vrijverval rioolleiding      | Zinker                             | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Leiding                      | Transportleiding                   | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Transportleiding             | Mechanische transportleiding       | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Mechanische transportleiding | Persleiding                        | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Mechanische transportleiding | Spoelleiding                       | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Transportleiding             | Vrijverval transportleiding        | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Vrijverval transportleiding  | Transportrioolleiding              | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Open leiding                 | Goot                               | 
-Fysiek object                | Reservoir                          | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Reservoir                    | Bergbezinkbassin                   | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Reservoir                    | Bergingsbassin                     | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Reservoir                    | Bergingsvijver                     | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Reservoir                    | Bezinkbassin                       | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Reservoir                    | Infiltratiereservoir               | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Infiltratiereservoir         | Infiltratiebassin                  | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Infiltratiereservoir         | Infiltratiegreppel                 | 
-Infiltratiereservoir         | Infiltratieveld                    | 
-Infiltratiereservoir         | Wadi                               | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Reservoir                    | Vacuümopslagtank                   | <strong style="color:green">G</strong> 
-Reservoir                    | Zuiveringsreservoir                | <strong style="color:red">F</strong>    | <strong style="color:red">F</strong>   | <strong style="color:red">F</strong> 
-Zuiveringsreservoir          | Helofytenfilter                    | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Zuiveringsreservoir          | IBA                                | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
-Zuiveringsreservoir          | Septictank                         | <strong style="color:green">G</strong>  | <strong style="color:green">G</strong> | <strong style="color:green">G</strong> 
+Die "kwaliteit" zijn de eisen die gesteld worden aan kenmerken en relaties, noodzakelijk voor een goede werking van (GWSW-)toepassingen.
 
 ## Kenmerken
 In de volgende tabel staan de kwaliteitsmaatstaven voor de kenmerken. Als een kwaliteitsmaatstaf niet is ingevuld, dan is het kenmerk niet verplicht in de conformiteitsklasse. 
@@ -397,13 +303,13 @@ Pomp          | Afslagniveau bovenstrooms        |                              
 Uitl.constr.  | Uitlaat (punt)                   |                              |                                        |                                        | <strong style="color:red">H</strong> 
 Hulpstuk      | Hulpstukoriëntatie               |                              |                                        |                                        | <strong style="color:red">H</strong> 
 
-## Aantal voorkomens
+## Relaties
 
-In de volgende tabel staan de kwaliteitsmaatstaven “Aantal voorkomens”, in hoeverre zijn de relaties tussen concepten consistent. 
+In de volgende tabel staan de kwaliteitsmaatstaven “Relaties” (ookwel: Äantal voorkomens" genoemd), in hoeverre zijn de relaties tussen concepten consistent. 
 Als een kwaliteitsmaatstaf niet is ingevuld, dan is de relatie niet verplicht in de conformiteitsklasse.
 In databases voor Stedelijk Water Systemen is de netwerkdefinitie belangrijk, in de conformiteitsklassen MdsProj en Hyd wordt hierop gecontroleerd.
 
-### Legenda: Kwaliteit aantal voorkomens
+### Legenda: Kwaliteit relaties
 
 Kwaliteitsmaatstaf | Code                                   | Omschrijving
 -------------------|----------------------------------------|-----------------------------------------------
@@ -411,7 +317,7 @@ laag               | <strong style="color:green">L</strong> | De kwaliteit is ni
 Neutraal           | **N**                                  | De kwaliteit is van invloed
 Hoog               | <strong style="color:red">H</strong>   | De kwaliteit is van doorslaggevend belang
 
-### Maatstaven: Kwaliteit aantal voorkomens
+### Maatstaven: Kwaliteit relaties
 
 Subject                 | Soort relatie    | Object                  | Aantal | MdsPlan                                | MdsProj                                | Hyd
 ------------------------|------------------|-------------------------|--------|----------------------------------------|----------------------------------------|-------------------------------------
