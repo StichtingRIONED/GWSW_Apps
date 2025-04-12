@@ -172,7 +172,7 @@ Bij de eigenschappen (kenmerken) van fysieke objecten:
 
 ## Eisenlijst
 
-Met [GWSW Apps](https://apps.gwsw.nl/item_publish_cfk){:target="_blank"} kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een 
+Met <a href="https://apps.gwsw.nl/item_publish_cfk" target="_blank">GWSW Apps</a> kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een 
 eisenlijst voor onder andere softwareleveranciers worden samengesteld.
 Deze lijst wordt samengesteld op basis van de door de persoon gekozen (één of meerdere) gegevensgebruiksniveaus.  
 
