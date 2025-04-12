@@ -128,9 +128,12 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 
 # Gegevensgebruiksniveaus
 
-Gegevensgebruiksniveaus zijn bedoeld als handvat voor beheerders en applicatieleveranciers van beheersoftware. Een gegevensgebruiksniveau definieert de gegevensbehoefte van de beheerder in relatie tot een bepaalde toepassing. Het is een beschrijving van objecttypen en de eigenschappen (kenmerken) voor diverse beheeraspecten.
+Gegevensgebruiksniveaus zijn bedoeld als handvat voor beheerders en applicatieleveranciers van beheersoftware. 
+Een gegevensgebruiksniveau definieert de gegevensbehoefte van de beheerder in relatie tot een bepaalde toepassing. 
+Het is een beschrijving van objecttypen en de eigenschappen (kenmerken) voor diverse beheeraspecten.
 
-De (technische) restricties op objecttypen, relaties, kenmerken en waardentypen, noodzakelijk voor een goede werking van (GWSW-) toepassingen worden conformiteitsklassen genoemd. Zie hiervoor [Hoofdstuk 4](#h4).
+De (technische) restricties op objecttypen, relaties, kenmerken en waardentypen, noodzakelijk voor een goede werking van (GWSW-) toepassingen worden conformiteitsklassen genoemd. 
+Zie hiervoor [Conformiteitsklassen](#conformiteitsklassen).
 
 ## Ontwerp
 
@@ -141,12 +144,13 @@ Als eerste zijn door de werkgroep de volgende gegevensgebruiksniveaus gedefiniee
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ligging    | Ligging en globale objectinformatie van hoofdriolering (fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK)                             |
 | Modelleren | Hydraulisch modelleren (hydraulisch relevante fysieke objecten, meer detail)                                                                    |
-| RibX       | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                                                         |
+| R&I        | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                                                         |
 | Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, globaal niveau: gebieden, systemen, stelsels) |
 | Volledig   | Alle stedelijk water objecten, de gecombineerde gebruiksniveaus                                                                                 |
 
 Vervolgens is voor elk gegevensgebruiksniveau een lijst van benodigde fysieke objecten en benodigde kenmerken opgesteld. 
-Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED. Deze zijn te vinden in de [spreadsheet met overzicht gebruiksniveaus](conformiteitsklassen/Vergelijking%20app-wg.xlsx). 
+Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED. Deze zijn te vinden in de 
+[spreadsheet met overzicht gebruiksniveaus](conformiteitsklassen/Vergelijking%20app-wg.xlsx). 
 
 De spreadsheet bevat de inhoud van de vijf nieuwe gegevensgebruiksniveaus in het GWSW. Per gegevensgebruiksniveau is een markering opgenomen:
 
@@ -168,13 +172,15 @@ Bij de eigenschappen (kenmerken) van fysieke objecten:
 
 ## Eisenlijst
 
-Met [GWSW Apps](https://apps.gwsw.nl/item_publish_cfk) kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een eisenlijst voor onder andere softwareleveranciers worden samengesteld.
+Met [GWSW Apps](https://apps.gwsw.nl/item_publish_cfk){:target="_blank"} kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een 
+eisenlijst voor onder andere softwareleveranciers worden samengesteld.
 Deze lijst wordt samengesteld op basis van de door de persoon gekozen (één of meerdere) gegevensgebruiksniveaus.  
 
 Als de beheerder met de rioleringsgegevens bijvoorbeeld een hydraulische doorrekening wil laten maken en ook een fatsoenlijke gegevenspresentatie voor PDOK wil leveren, 
 dan kiest deze persoon voor de gebruiksniveaus *Modelleren* en *Ligging*.
 
-Bij de aanbesteding of inkoop van een (nieuw) beheerpakket of andersoortige applicatie kan de opdrachtgever verwijzen naar de gegevensgebruiksniveaus als specificatie van de eisen waar de applicatie aan dient te voldoen. De leverancier zal dat dan moeten (kunnen) aantonen.
+Bij de aanbesteding of inkoop van een (nieuw) beheerpakket of andersoortige applicatie kan de opdrachtgever verwijzen naar de gegevensgebruiksniveaus 
+als specificatie van de eisen waar de applicatie aan dient te voldoen. De leverancier zal dat dan moeten (kunnen) aantonen.
 
 Daarnaast maken de gegevensgebruiksniveaus onderdeel uit van de applicatietoetsing.
 
@@ -197,10 +203,12 @@ De CFK-notatie staat in het GWSW-datamodel, zie ook [validity context](https://s
 | Prognoses  | TOP DMO             | 13     |
 | Volledig   | TOP MDS BAS HYD DMO | 14     |
 
-# Conformiteitsklassen (CFKen)
+# Conformiteitsklassen
 
-Waar gegevensgebruiksniveaus vooral de beschrijving en eigenschappen van fysieke objecten definiëren passend bij het gebruik van de gegevens voor (beheer-)toepassingen, geven conformiteitsklassen (CFKs) de technische restricties daarvan binnen (GWSW-)toepassingen.
-Kort gezegd: Gegevensgebruiksniveaus bepalen **of** het object of het kenmerk in de gegevens zit en Conformiteitsklassen bepalen **hoe** (met welke kwaliteit) het object of kenmerk in de gegevens zit.
+Waar gegevensgebruiksniveaus vooral de beschrijving en eigenschappen van fysieke objecten definiëren passend bij het gebruik van de gegevens voor (beheer-)toepassingen, 
+geven conformiteitsklassen (CFKs) de technische restricties daarvan binnen (GWSW-)toepassingen.
+Kort gezegd: Gegevensgebruiksniveaus bepalen **of** het object of het kenmerk in de gegevens zit en Conformiteitsklassen bepalen **hoe** (met welke kwaliteit) 
+het object of kenmerk in de gegevens zit.
 
 Die "kwaliteit" zijn de eisen die gesteld worden aan kenmerken en relaties, noodzakelijk voor een goede werking van (GWSW-)toepassingen.
 
