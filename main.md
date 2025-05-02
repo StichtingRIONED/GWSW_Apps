@@ -126,7 +126,7 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 * Staat er voldoende informatie in om conclusies te kunnen trekken?
 * Welke vervolgrapportage (met die conclusies) moet er komen?
 
-# Gegevensgebruiksniveaus TEST
+# Gegevensgebruiksniveaus
 
 Gegevensgebruiksniveaus zijn bedoeld als handvat voor beheerders en applicatieleveranciers van beheersoftware. 
 Een gegevensgebruiksniveau definieert de gegevensbehoefte van de beheerder in relatie tot een bepaalde toepassing. 
