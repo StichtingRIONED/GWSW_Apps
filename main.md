@@ -128,12 +128,27 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 
 # Gegevensgebruiksniveaus
 
-Gegevensgebruiksniveaus zijn bedoeld als handvat voor beheerders en applicatieleveranciers van beheersoftware. 
-Een gegevensgebruiksniveau definieert de gegevensbehoefte van de beheerder in relatie tot een bepaalde toepassing. 
-Het is een beschrijving van objecttypen en de eigenschappen (kenmerken) voor diverse beheeraspecten.
+## Inleiding
+Een vraag die vaak door beheerders wordt gesteld is: "Wat moet ik (kunnen) registreren in mijn beheerpakket, zodat ik de gegevens kan gebruiken voor .... *vul in: "de ontsluiting naar PDOK/hydraulisch modelleren/....etc.* ?"
 
-De (technische) restricties op objecttypen, relaties, kenmerken en waardentypen, noodzakelijk voor een goede werking van (GWSW-) toepassingen worden conformiteitsklassen genoemd. 
+Gegevensgebruiksniveaus (GGN's) zijn bedoeld als handvat voor beheerders en applicatieleveranciers van beheersoftware en laten zien wat er in het beheerpakket moet worden geregistreerd in relatie tot een bepaalde toepassing (PDOK, modelleren, etc.). 
+De GGN's zijn een beschrijving van objecttypen en de eigenschappen (kenmerken) voor diverse beheeraspecten.
+
+De (technische) restricties op objecttypen, relaties, kenmerken en waardentypen, noodzakelijk voor een goede werking van (GWSW-) toepassingen worden conformiteitsklassen (CFK's) genoemd en dit zijn (technische) aanscherpingen van de GGN's.
 Zie hiervoor [Conformiteitsklassen](#conformiteitsklassen).
+
+## Proces
+Het GWSW-Basis is een subset van het GWSW, gericht op processen die basisrioleringsgegevens nodig hebben. Hieraan lagen de contouren van de Minimale Dataset (uit 2014/2015) ten grondslag. Sindsdien zijn de beheerapplicaties sterk verbeterd o.a. in de aansluiting op het GWSW en zijn ook de aangeleverde datasets van gemeenten steeds vollediger geworden. Hierdoor ontstond de behoefte aan een meer algemene kwaliteitstoets van gegevens en datamodellen in de gangbare beheerapplicaties. Met die reden is Stichting RIONED in 2023 gestart met de werkgroep Gegevensgebruiksniveaus. De werkgroep bestaat uit:
+- Jafeth Heining (Jafeth Heining advies)
+- Nico Jonker (gemeente Schagen)
+- Jordie Netten (Stichting RIONED/Netten Wateradvies, Projectleider)
+- Frank Ramaekers (gemeente Helmond)
+- Freek Verhoef (gemeente Den Haag)
+- Marinus Vonhof (Stichting RIONED, GWSW-modelleur)
+- Heino Welman (gemeente Nijmegen)
+- Bob Zwartendijk (Nectaerra)
+
+Vanuit Stichting RIONED is Eric Oosterom de verantwoordelijk projectmanager. Vragen kunt u stellen via gwsw@rioned.org. 
 
 ## Ontwerp
 
@@ -145,8 +160,8 @@ Als eerste zijn door de werkgroep de volgende gegevensgebruiksniveaus gedefiniee
 | Ligging    | Ligging en globale objectinformatie van hoofdriolering (fysieke objecten op hoofdlijnen, voor bijvoorbeeld in PDOK)                             |
 | Modelleren | Hydraulisch modelleren (hydraulisch relevante fysieke objecten, meer detail)                                                                    |
 | R&I        | Reiniging en inspectie vrijverval riolering (fysieke objecten, waar beheer op nodig is)                                                         |
-| Prognoses  | Afvalwaterprognoses, ontwikkelingen in de afvalwaterketen (beperkte hoeveelheid fysieke objecten, globaal niveau: gebieden, systemen, stelsels) |
-| Volledig   | Alle stedelijk water objecten, de gecombineerde gebruiksniveaus                                                                                 |
+| Monitor    | Monitor Stedelijke Watertaken van Stichting RIONED (beperkte hoeveelheid fysieke objecten, globaal niveau: gebieden, systemen, stelsels)        |
+| Uitgebreid | Uitgebreide set aan fysieke objecten die door beheerders vaak worden geregistreerd                                                               |
 
 Vervolgens is voor elk gegevensgebruiksniveau een lijst van benodigde fysieke objecten en benodigde kenmerken opgesteld. 
 Eind september 2023 zijn deze lijsten opgeleverd aan Stichting RIONED. Deze zijn te vinden in de 
@@ -184,24 +199,21 @@ als specificatie van de eisen waar de applicatie aan dient te voldoen. De levera
 
 Daarnaast maken de gegevensgebruiksniveaus onderdeel uit van de applicatietoetsing.
 
-## Techniek
-
-### Notatie in datamodel
+## Notatie in datamodel
 
 Het GWSW-datamodel wordt voor de gegevensgebruiksnviveaus gefilterd op de CoF-code (collection of facts). Zie ook 
 [details deelmodellen](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#details-deelmodellen). De volgende tabel bevat de gehanteerde CoF'en per gebruiksniveau.
 
-Met zogenaamde CFK-notaties wordt (binnen het filter op CoF'en) de gebruiksniveau-definitie verder aangescherpt, 
-de notatie kan bijvoorbeeld markeren dat het objecttype niet relevant is of te abstract is.
-De CFK-notatie staat in het GWSW-datamodel, zie ook [validity context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).
+| Niveaunaam | CoF                   | CFK-nr |
+|------------|-----------------------|--------|
+| Ligging    | TOP MDS BAS           | 10     |
+| Modelleren | TOP HYD               | 11     |
+| RibX       | TOP MDS               | 12     |
+| Monitor    | TOP **n/b**           | 13     |
+| Uitgebreid | TOP MDS BAS HYD DMO   | 14     |
 
-| Niveaunaam | CoF                 | CFK-nr |
-|------------|---------------------|--------|
-| Ligging    | TOP MDS BAS         | 10     |
-| Modelleren | TOP HYD             | 11     |
-| RibX       | TOP MDS             | 12     |
-| Prognoses  | TOP DMO             | 13     |
-| Volledig   | TOP MDS BAS HYD DMO | 14     |
+Binnen het filter op CoF's worden de gegevensgebruiksniveau-definitie verder aangescherpt met zogenaamde Conformiteitsklasse-notaties (CFK-notaties). Deze CFK-notaties kunnen bijvoorbeeld markeren dat het objecttype niet relevant is of te abstract is.
+De CFK-notaties staan in het GWSW-datamodel, zie ook [validity context](https://stichtingrioned.github.io/GWSW_Ontologie_RDF/#validity-context).
 
 # Conformiteitsklassen
 
