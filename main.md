@@ -129,15 +129,17 @@ Op de websites de kwaliteit van de conformiteitsklassen (bijvoorbeeld [MdsPlan](
 # Gegevensgebruiksniveaus
 
 ## Inleiding
-Een vraag die vaak door beheerders wordt gesteld is: "Wat moet ik (kunnen) registreren in mijn rioolbeheerpakket, zodat ik de gegevens kan gebruiken voor *vul in: "de ontsluiting naar PDOK/hydraulisch modelleren/....etc.* ?"
+Een vraag die vaak door beheerders wordt gesteld is: "Wat moet ik (kunnen) registreren in mijn rioolbeheerpakket, zodat ik de gegevens kan gebruiken voor *<vul in> de ontsluiting naar PDOK/hydraulisch modelleren/....etc.* ?"
 
-Gegevensgebruiksniveaus (GGN's) zijn bedoeld als handvat voor beheerders en applicatieleveranciers van beheersoftware en laten zien wat er in het rioolbeheerpakket moet worden geregistreerd in relatie tot een bepaalde toepassing (PDOK, modelleren, etc.). 
+Gegevensgebruiksniveaus (GGN's) zijn bedoeld als handvat voor beheerders en applicatieleveranciers van rioolbeheerpakketten en laten zien wat er in het rioolbeheerpakket moet worden geregistreerd in relatie tot een bepaalde toepassing (PDOK, modelleren, etc.). 
 
-De GGN's zijn een beschrijving van objecttypen en de eigenschappen (kenmerken) voor diverse beheeraspecten. De (technische) restricties op objecttypen, relaties, kenmerken en waardentypen, noodzakelijk voor een goede werking van (GWSW-) toepassingen worden conformiteitsklassen (CFK's) genoemd en dit zijn (technische) aanscherpingen van de GGN's.
+De GGN's zijn een beschrijving van objecttypen en de eigenschappen (kenmerken) voor diverse beheeraspecten. De (technische) restricties op objecttypen, relaties, kenmerken en waardentypen, noodzakelijk voor een goede werking van GWSW-toepassingen worden conformiteitsklassen (CFK's) genoemd en dit zijn (technische) aanscherpingen van de GGN's.
 Zie hiervoor [Conformiteitsklassen](#conformiteitsklassen).
 
 ## Aanleiding en werkgroep
-Het GWSW-Basis is een subset van het GWSW, gericht op processen die basisrioleringsgegevens nodig hebben. Hieraan lagen de contouren van de Minimale Dataset (uit 2014/2015) ten grondslag. Sindsdien zijn de rioolbeheerpakketten sterk verbeterd o.a. in de aansluiting op het GWSW en zijn ook de aangeleverde datasets van gemeenten steeds vollediger geworden. Hierdoor ontstond de behoefte aan een meer algemene kwaliteitstoets op gegevens en datamodellen in de gangbare rioolbeheerpakketten. 
+Het GWSW-Basis is een subset van het GWSW, gericht op processen die basisrioleringsgegevens nodig hebben. Hieraan lagen de contouren van de Minimale Dataset (uit 2014/2015) ten grondslag. Sindsdien zijn de rioolbeheerpakketten sterk verbeterd o.a. in de aansluiting op het GWSW en zijn ook de aangeleverde datasets van gemeenten steeds vollediger geworden. 
+
+Hierdoor ontstond de behoefte aan een meer algemene kwaliteitstoets op gegevens en datamodellen in de gangbare rioolbeheerpakketten. 
 Met die reden is Stichting RIONED in 2023 gestart met de werkgroep Gegevensgebruiksniveaus. De werkgroep bestaat uit:
 - Jafeth Heining (Jafeth Heining advies)
 - Nico Jonker (gemeente Schagen)
@@ -149,11 +151,11 @@ Met die reden is Stichting RIONED in 2023 gestart met de werkgroep Gegevensgebru
 - Bob Zwartendijk (Nectaerra)
 
 ## Proces en keuzes
-De werkgroep heeft in het proces een aantal keuzes gemaakt over wat er wel en wat er niet in de Gegegevensgebruiksniveaus moest worden opgenomen. 
+De werkgroep heeft in het proces een aantal keuzes gemaakt over wat er wel en wat er niet in de gegegevensgebruiksniveaus moest worden opgenomen. 
 
-Eén belangrijke daarvan was de keuze voor Fysieke Objecten en hun kenmerken. Deze keuze is gemaakt omdat er in het rioolbeheerpakket hoofdzakelijk fysieke objecten worden vastgelegd. Deze keuze levert beperkingen op, zoals het ontbreken van andere concepten zoals  "Ruimte" en het ontbreken van relaties ("Composities") tussen objecten. Hierdoor is het nu nog niet mogelijk om het datamodel van het rioolbeheerpakket en de gegevens te valideren voor voor het maken van afvalwaterprognoses (GWSW Kengetallen). De relaties tussen objecten zijn opgenomen in de conformiteitsklassen (CFKs).
+Eén belangrijke daarvan was de keuze voor "Fysieke Objecten" en hun kenmerken. Deze keuze is gemaakt omdat er in het rioolbeheerpakket hoofdzakelijk fysieke objecten worden vastgelegd. Deze keuze levert beperkingen op, zoals het ontbreken van andere concepten zoals  "Ruimte" en het ontbreken van relaties ("Composities") tussen objecten. Hierdoor is het nu nog niet mogelijk om het datamodel van het rioolbeheerpakket en de gegevens te valideren voor voor het maken van afvalwaterprognoses (GWSW Kengetallen). De validatie op "Composities" zijn opgenomen in de conformiteitsklassen (CFKs).
 
-Een andere belangrijke keuze was voor welke toepassingen er een gegevensgebruiksniveau moest komen. De keuze is gebaseerd op de meest gebruikte datatoepassingen (onstluiten van gegevens naar bijvoorbeeld PDOK ("Ligging"), het gebruiken van de gegevens voor het hydraulisch modelleren ("Modelleren") en voor reinigen en inspecteren ("R&I") van de riolering. Naar aanleiding van de ervaringen uit de Monitor Stedelijke Watertaken 2024 is deze als extra gegevensgebruiksniveau ("Monitor") toegevoegd. De keuze voor het gegevensgebruiksniveau "Uitgebreid" is gemaakt, omdat er naast de fysieke objecten uit voorgenoemde toepassingen ook andere objecten veelal worden geregistreerd in het rioolbeheerpakket. Mogelijk dat de gegevensgebruiksniveaus in de toekomst worden uitgebreid met andere toepassingen.
+Een andere belangrijke keuze was voor welke toepassingen er een gegevensgebruiksniveau moest komen. De keuze is gebaseerd op de meest gebruikte datatoepassingen (onstluiten van gegevens naar bijvoorbeeld PDOK, het gebruiken van de gegevens voor het hydraulisch modelleren en voor reinigen en inspecteren van de riolering. Naar aanleiding van de ervaringen uit de Monitor Stedelijke Watertaken 2024 is dit als extra gegevensgebruiksniveau toegevoegd. Omdat er naast de fysieke objecten uit voorgenoemde toepassingen ook andere objecten vaak worden geregistreerd in het rioolbeheerpakket is hiervoor een uitgebreider gegevensgebruiksniveau toegevoegd. Mogelijk dat het aantal gegevensgebruiksniveaus in de toekomst wordt uitgebreid met andere toepassingen.
 
 Wat er wel en wat er niet is opgenomen in de verschillende gegevensgebruiksniveaus is bepaald door de werkgroepleden op basis van hun kennis en ervaring. Als een fysiek object of een bijbehorend kenmerk niet is opgenomen, dan is dat omdat de werkgroepleden dat als niet belangrijk genoeg achtten om het op te nemen in het betreffende gegevensgebruiksniveau en/of dat het elders (zoals bijvoorbeeld in de Basisregistratie Ondergrond (BRO)) wordt geregistreerd. Indien u van mening bent dat een bepaald fysiek onterecht wel of niet is opgenomen, dan horen we dat graag via gwsw@rioned.org. 
 
@@ -168,7 +170,7 @@ De volgende gegevensgebruiksniveaus zijn gedefinieerd:
 | Monitor    | Monitor Stedelijke Watertaken van Stichting RIONED (beperkte hoeveelheid fysieke objecten, globaal niveau: gebieden, systemen, stelsels)        |
 | Uitgebreid | Uitgebreide set aan fysieke objecten die door beheerders vaak worden geregistreerd                                                              |
 
-Voor elk gegevensgebruiksniveau is er - door de werkgroep - een lijst van benodigde fysieke objecten (voorkomens) en benodigde kenmerken opgesteld aan de hand van onderstaande codering. Deze lijst kan worden opgevraagd via GWSW Apps. Dit wordt in de volgende paragraaf toegelicht.
+Voor elk gegevensgebruiksniveau is er - door de werkgroep - een lijst van benodigde fysieke objecten ('voorkomens') en benodigde kenmerken opgesteld aan de hand van onderstaande codering. Deze lijst kan worden opgevraagd via GWSW Apps. Dit wordt in de volgende paragraaf toegelicht.
 
 Bij de voorkomens van fysieke objecten:  
 
