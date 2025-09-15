@@ -190,7 +190,7 @@ Bij de eigenschappen (kenmerken) van fysieke objecten:
 
 ## Eisenlijst
 
-Met <a href="https://apps.gwsw.nl/item_publish_cfk" target="_blank">GWSW Apps</a> kan - bijvoorbeeld door een rioolbeheerder - van het vigerende GWSW datamodel automatisch een 
+Met <a href="https://apps.gwsw.nl/item_publish_ggn" target="_blank">GWSW Apps</a> kan - bijvoorbeeld door een rioleringsbeheerder - van het vigerende GWSW datamodel automatisch een 
 eisenlijst worden samengesteld wat er in het datamodel en in de gegevensset van een rioolbeheerpakket moet zitten om de gegevens te kunnen gebruiken voor een bepaalde toepassing (gegevensgebruik).
 
 Deze eisenlijst wordt samengesteld op basis van de door de persoon gekozen (één of meerdere) gegevensgebruiksniveaus. Als de beheerder met de rioleringsgegevens bijvoorbeeld een hydraulische doorrekening wil laten maken en ook een fatsoenlijke gegevenspresentatie voor PDOK wil leveren, dan kiest deze persoon voor de gebruiksniveaus *Modelleren* en *Ligging*.
