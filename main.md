@@ -108,7 +108,7 @@ Het GWSW-datamodel wordt voor de gegevensgebruiksnviveaus gefilterd op de CoF-co
 | Ligging    | TOP MDS BAS         | 10     |
 | Modelleren | TOP HYD             | 11     |
 | R&I        | TOP MDS             | 12     |
-| Monitor    | TOP MDS             | 15     |
+| Monitor    | TOP MDS BAS         | 15     |
 | Uitgebreid | TOP MDS BAS HYD DMO | 14     |
 
 Binnen het filter op CoF's worden de gegevensgebruiksniveau-definitie verder aangescherpt met zogenaamde Conformiteitsklasse-notaties (CFK-notaties). 
