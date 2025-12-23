@@ -251,6 +251,45 @@ Gescheiden stelsel      | heeft als deel   | Vuilwaterstelsel        | 1      | 
 Beginpunt leiding       | heeft verbinding | Put                     | 1      | <strong style="color:red">H</strong>   |                                        | <strong style="color:red">H</strong>
 Eindpunt leiding        | heeft verbinding | Put                     | 1      | <strong style="color:red">H</strong>   |                                        | <strong style="color:red">H</strong>
 
+# SWchat
+
+**AI voor Stedelijk Water**
+
+Een GWSW-applicatie voor gesprekken over Stedelijk Water, gebaseerd op AI-technologie.
+SWchat levert informatie op basis van het Gegevenswoordenboek Stedelijk Water (GWSW), de beschrijving van voorzieningen en activiteiten voor de discipline Stedelijk Water.
+
+Dankzij de dialoogvorm kan SWchat het gesprek voeren, vervolgvragen beantwoorden, kritisch reageren op verkeerde veronderstellingen of onderwerpen buiten de GWSW-context.
+De AI ondersteuning daarvoor wordt geleverd door Mistral AI.
+
+## Inleiding
+
+SWchat is gebaseerd op "Retrieval-augmented generation" (RAG), een techniek waarmee informatie wordt toegevoegd aan Large Language Models (LLMs). 
+Zo'n LLM is de basis van AI-chatbots.
+Met RAG zal een LLM alleen vragen beantwoorden op basis van de toegevoegde documenten. Dit voorkomt zoveel mogelijk "hallucinaties" van de chatbot.
+De toegevoegde gegevens vormen uitbreiding van de trainingsdata voor een LLM . 
+Daarmee helpen we LLM-gebaseerde chatbots om antwoorden te genereren op basis van beproefde data zoals die van het GWSW.
+
+De geleverde informatie (het naslagwerk) is het GWSW Datamodel, de belangrijkste gegevens daarvan zijn opgenomen in de brondata van SWchat:
+
+* Definities en beschrijvingen per concept (voorzieningen en activiteiten).
+* De opbouw per concept (de samenstelling, inclusief "kardinaliteit").
+* Functie en uitvoering per concept ("onderscheidende kenmerken").
+* Eigenschappen per concept (kenmerken/attributen).
+* Eenheden en waarde-bereik van eigenschappen (min/max).
+* Domeinwaarden van eigenschappen (collecties).
+
+## De context
+
+- naslagwerk: model voorzieningen, activiteiten...
+- geen datasets...
+- geen juridische aspecten enzo..
+- keuze tussen deelmodel Totaal en Revisies...
+
+## Semantische database als basis
+
+- gellish/renssen/koetsveld...
+- discriminitoren...
+- SWchat versus GraphRAG...
 
 # Details GWSW Apps
 
