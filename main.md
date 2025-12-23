@@ -255,10 +255,10 @@ Eindpunt leiding        | heeft verbinding | Put                     | 1      | 
 
 **AI voor Stedelijk Water**
 
-Een GWSW-applicatie voor gesprekken over Stedelijk Water, gebaseerd op AI-technologie.
+Een GWSW-applicatie voor gesprekken over Stedelijk Water, gebaseerd op AI-technologie.  
 SWchat levert informatie op basis van het Gegevenswoordenboek Stedelijk Water (GWSW), de beschrijving van voorzieningen en activiteiten voor de discipline Stedelijk Water.
 
-Dankzij de dialoogvorm kan SWchat het gesprek voeren, vervolgvragen beantwoorden, kritisch reageren op verkeerde veronderstellingen of onderwerpen buiten de GWSW-context.
+Dankzij de dialoogvorm kan SWchat het gesprek voeren, vervolgvragen beantwoorden en kritisch reageren op verkeerde veronderstellingen of onderwerpen buiten de GWSW-context.  
 De AI ondersteuning daarvoor wordt geleverd door Mistral AI.
 
 ## Inleiding
