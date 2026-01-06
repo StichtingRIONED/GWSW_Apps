@@ -269,27 +269,38 @@ Met RAG zal een LLM alleen vragen beantwoorden op basis van de toegevoegde docum
 De toegevoegde gegevens vormen uitbreiding van de trainingsdata voor een LLM . 
 Daarmee helpen we LLM-gebaseerde chatbots om antwoorden te genereren op basis van beproefde data zoals die van het GWSW.
 
-De geleverde informatie (het naslagwerk) is het GWSW Datamodel, de belangrijkste gegevens daarvan zijn opgenomen in de brondata van SWchat:
+## De context
+
+De geleverde informatie (het naslagwerk) is deelmodel Totaal van het GWSW Datamodel, de belangrijkste gegevens daarvan zijn opgenomen in de brondata van SWchat:
 
 * Definities en beschrijvingen per concept (voorzieningen en activiteiten).
 * De opbouw per concept (de samenstelling, inclusief "kardinaliteit").
-* Functie en uitvoering per concept ("onderscheidende kenmerken").
+* Functie, doel, toepassing, uitvoering, enzo per concept (discriminatoren of "onderscheidende kenmerken").
 * Eigenschappen per concept (kenmerken/attributen).
 * Eenheden en waarde-bereik van eigenschappen (min/max).
 * Domeinwaarden van eigenschappen (collecties).
 
-## De context
+Van het domein Stedelijk Water definieert het GWSW de voorzieningen (assets, fysieke en ruimtelijke objecten) en activiteiten (projecten, maatregelen).
+SWchat kan niets zeggen over:
+- dataset van gemeenten en waterschappen
+- juridische aspecten van stedelijk-water-beheer
 
-- naslagwerk: model voorzieningen, activiteiten...
-- geen datasets...
-- geen juridische aspecten enzo..
-- keuze tussen deelmodel Totaal en Revisies...
+## Hoe helpt een semantisch datamodel
 
-## Semantische database als basis
+- taxonomie: beschrijving op basis discriminatoren
+- meronomie: deel/geheel relaties
+- topologie: koppel relatie, uitvoering-beschrijving 
 
-- gellish/renssen/koetsveld...
-- discriminitoren...
-- SWchat versus GraphRAG...
+## Capaciteit SWchat
+
+Redeneren:
+- Selecteer voorzieningen, hier helpt de expliciete definitie
+  - Beantwoord bijvoorbeeld: Hoe kan ik regenwater afvoeren naar de bodem?
+  - Afhankelijk van de vraag, op basis van functie, constructie, enzo
+- Analiseer de verschillen tussen voorzieningen, hier helpt de expliciete definitie
+  - Op basis van functie, constructie enzo
+
+Vraag-gebaseerde rapportage met indeling, samenvatting, overzichten, afbeeldingen 
 
 # Details GWSW Apps
 
