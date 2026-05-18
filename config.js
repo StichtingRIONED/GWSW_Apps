@@ -20,7 +20,7 @@ var respecConfig =
     companyURL: "https://www.netten-wateradvies.nl/"
   },{
     name: "Marinus Vonhof",
-    url: "mailto:marinus.vonhof@marIvon.nl",
+    url: "mailto:marinus.vonhof@marvoni.nl",
     company: "marIvon",
     companyURL: "https://www.marvoni.nl"
   }],
