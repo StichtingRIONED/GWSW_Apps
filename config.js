@@ -21,7 +21,7 @@ var respecConfig =
   },{
     name: "Marinus Vonhof",
     url: "mailto:marinus.vonhof@marvoni.nl",
-    company: "marIvon",
+    company: "marvoni",
     companyURL: "https://www.marvoni.nl"
   }],
   otherLinks: [{
