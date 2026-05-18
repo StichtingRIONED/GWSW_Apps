@@ -22,7 +22,7 @@ var respecConfig =
     name: "Marinus Vonhof",
     url: "mailto:marinus.vonhof@marIvon.nl",
     company: "marIvon",
-    companyURL: "https://www.marIvon.nl"
+    companyURL: "https://www.marvoni.nl"
   }],
   otherLinks: [{
     key: "GitHub", href: "https://github.com/stichtingrioned/GWSW_Apps/"
